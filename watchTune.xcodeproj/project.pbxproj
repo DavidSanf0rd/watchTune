@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10CAA5A21DD13B20008A9DFB /* MusicUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CAA5A11DD13B20008A9DFB /* MusicUtilities.swift */; };
 		10EC75831DD0C5A500729151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EC75821DD0C5A500729151 /* AppDelegate.swift */; };
 		10EC75851DD0C5A500729151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EC75841DD0C5A500729151 /* ViewController.swift */; };
 		10EC75881DD0C5A500729151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EC75861DD0C5A500729151 /* Main.storyboard */; };
@@ -86,6 +87,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10CAA5A11DD13B20008A9DFB /* MusicUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicUtilities.swift; sourceTree = "<group>"; };
 		10EC757F1DD0C5A500729151 /* watchTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10EC75821DD0C5A500729151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10EC75841DD0C5A500729151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 			children = (
 				10EC75821DD0C5A500729151 /* AppDelegate.swift */,
 				10EC75841DD0C5A500729151 /* ViewController.swift */,
+				10CAA5A11DD13B20008A9DFB /* MusicUtilities.swift */,
 				10EC75861DD0C5A500729151 /* Main.storyboard */,
 				10EC75891DD0C5A500729151 /* Assets.xcassets */,
 				10EC758B1DD0C5A500729151 /* LaunchScreen.storyboard */,
@@ -720,6 +723,7 @@
 			files = (
 				10EC75851DD0C5A500729151 /* ViewController.swift in Sources */,
 				10EC75831DD0C5A500729151 /* AppDelegate.swift in Sources */,
+				10CAA5A21DD13B20008A9DFB /* MusicUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,6 +1082,7 @@
 				10EC75CA1DD0C5A500729151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10EC75CC1DD0C5A500729151 /* Build configuration list for PBXNativeTarget "watchTune WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -1086,6 +1091,7 @@
 				10EC75CE1DD0C5A500729151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10EC75D01DD0C5A500729151 /* Build configuration list for PBXNativeTarget "watchTune" */ = {
 			isa = XCConfigurationList;
@@ -1094,6 +1100,7 @@
 				10EC75D21DD0C5A500729151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10EC75D31DD0C5A500729151 /* Build configuration list for PBXNativeTarget "watchTuneTests" */ = {
 			isa = XCConfigurationList;
@@ -1102,6 +1109,7 @@
 				10EC75D51DD0C5A500729151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10EC75D61DD0C5A500729151 /* Build configuration list for PBXNativeTarget "watchTuneUITests" */ = {
 			isa = XCConfigurationList;
@@ -1110,6 +1118,7 @@
 				10EC75D81DD0C5A500729151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
