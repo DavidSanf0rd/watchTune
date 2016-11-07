@@ -1,0 +1,6 @@
+framework module Pods_watchTune {
+  umbrella header "Pods-watchTune-umbrella.h"
+
+  export *
+  module * { export * }
+}

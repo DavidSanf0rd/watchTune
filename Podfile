@@ -8,7 +8,7 @@ target 'watchTune' do
 
   # Pods for watchTune
   pod 'AudioKit', '~> 3.4'
-
+  pod 'BAFluidView', '~> 0.2'
   target 'watchTuneTests' do
     inherit! :search_paths
     # Pods for testing
@@ -33,5 +33,5 @@ target 'watchTune WatchKit Extension' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   # Pods for watchTune WatchKit Extension
-
+  
 end
