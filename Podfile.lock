@@ -1,15 +1,18 @@
 PODS:
+  - AKPickerView (0.2.7)
   - AudioKit (3.4.3)
   - BAFluidView (0.2.3)
 
 DEPENDENCIES:
+  - AKPickerView
   - AudioKit (~> 3.4)
   - BAFluidView (~> 0.2)
 
 SPEC CHECKSUMS:
+  AKPickerView: 125372e36fcc372216127600a541f14dcdbb7993
   AudioKit: 88e8befa730f8c8d9a1c67446c823ea6f37cc54b
   BAFluidView: 5d84ef109831b97740f75b6d785e51f13fa08398
 
-PODFILE CHECKSUM: cfbdfe2fe0d6f776f1e2c762bb7303e21b76caa1
+PODFILE CHECKSUM: 666dba9f32204dbf15865213710bfe2e7a780514
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.0.1

@@ -9,6 +9,7 @@ target 'watchTune' do
   # Pods for watchTune
   pod 'AudioKit', '~> 3.4'
   pod 'BAFluidView', '~> 0.2'
+  pod 'AKPickerView'
   target 'watchTuneTests' do
     inherit! :search_paths
     # Pods for testing

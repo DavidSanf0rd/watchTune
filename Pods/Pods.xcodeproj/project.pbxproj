@@ -7,254 +7,372 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D77039E9C4FB361706D1E6A1E4E44B2 /* Pods-watchTuneUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A84803A6B2272CD547F17FE8667A3A2B /* Pods-watchTuneUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E22F365D7245EEB9A8BD18F3D5CCF20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D838EF91E8DF0B2D03DF4ED7D616C4CE /* Foundation.framework */; };
-		194E5319FC7AD48DD119FB8A613AD4A4 /* Pods-watchTune-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70046F4730B996F73DAA387CA663726 /* Pods-watchTune-dummy.m */; };
-		21D987DE4C3FB9223B95E0CEB6DD783E /* Pods-watchTune WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EADEA64805CE94C282D8F5866E013 /* Pods-watchTune WatchKit Extension-dummy.m */; };
-		2DE49DE5E498E596D316B2A2D389DBDA /* Pods-watchTuneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A39E40BCF039E4D62A524CCBB7F3B /* Pods-watchTuneTests-dummy.m */; };
-		2FDD7C9D17D5202E3BBCF70853B9411A /* UIColor+ColorWithHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8170D7DBDBE81D7ACA85FFA93E2400D6 /* UIColor+ColorWithHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FE9598312D4445E4C20A8C2138E4943 /* Pods-watchTune WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3AC2F26119E5F3CB02207A605AB02D /* Pods-watchTune WatchKit App-dummy.m */; };
-		527E8CBFD070E8FF572456553253DAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D838EF91E8DF0B2D03DF4ED7D616C4CE /* Foundation.framework */; };
-		54E451347BD118B850FDAD2E52580DC5 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 53ACEF69D003F429D59890BEAACADBFD /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D12FB0EEA425BAFC58B445D9B690520 /* Pods-watchTuneUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58503A64FE161F097B57401FD6B4E9 /* Pods-watchTuneUITests-dummy.m */; };
-		6174D587559999EE4BC2A40E44C75201 /* BAFluidView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0638D77B4AF77A40749400C1D9079FD0 /* BAFluidView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		691BFBCAA1F4BCDA71A2D23385D9D2C3 /* Pods-watchTuneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 458BAFC1E96748EB1870E463A2863ED4 /* Pods-watchTuneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71DB65060FBFE1F0F2FA4C8332135FC4 /* BAFluidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 069EC3875930D9D7F1ED1EC6A7292FE8 /* BAFluidView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7D3D710ED3808909C9D67DC79D40DC5A /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935B885FF8DE1429DC8D9755D515DF6 /* UIColor+ColorWithHex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		90547E8E503D337F6616A937F0DE4B2C /* BAFluidView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6806C86AB748CE2054D4F1F9BC86F756 /* BAFluidView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		919AA350B97B1A8930D3F17431C718B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541A61AF9C1ECF6331A31360330DBEEB /* UIKit.framework */; };
-		99F9D70A3481B14D418DAEB410BA4972 /* Pods-watchTune WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A629C177E2ADF41FAFB82F027EFCCF /* Pods-watchTune WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0A84EF6FC66812DB1C266B1CA76A7BB /* Pods-watchTune WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF0EBA13F67B92CD75A4C7A42B5EFF6 /* Pods-watchTune WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD9A709CC4E08D6EE72BBA6D0B3978B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D838EF91E8DF0B2D03DF4ED7D616C4CE /* Foundation.framework */; };
-		CFED1A21EACCC92D39FB489896DAFA12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D838EF91E8DF0B2D03DF4ED7D616C4CE /* Foundation.framework */; };
-		D9BCC560F6EAABDA631B7FE820BA0A62 /* Pods-watchTune-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D16E33A47582E95F5947E1E812431930 /* Pods-watchTune-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA4BADBAC5F89830F40EDDCBCE1C69F1 /* BAFluidView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFBE41E5EB3AD74BCC6D2BEA64923F5 /* BAFluidView-dummy.m */; };
-		DBCF8091A5128EE9376F5FE5F5387E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8DF5AB7960DE7DCE3233F996CCE54 /* Foundation.framework */; };
-		F549786CECED2ED46829094A6CE5AC2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF8DF5AB7960DE7DCE3233F996CCE54 /* Foundation.framework */; };
+		0361AC7E68A5BC20B40CEB8346919EA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFC14F80376BB4982ABD3083555448A /* Foundation.framework */; };
+		0379B3E6CB86F195E21C08A204A061C4 /* Pods-watchTuneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A39E40BCF039E4D62A524CCBB7F3B /* Pods-watchTuneTests-dummy.m */; };
+		04951AC33F73B9CC92FAA16092FF3B15 /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BEB3299CAF5EBCE97CD79701D2DC98 /* AKPickerView.m */; };
+		072C54FE93DAF4E6904CA4049205E7FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFC14F80376BB4982ABD3083555448A /* Foundation.framework */; };
+		0F680B8F958E983E44419660D5CEF96B /* Pods-watchTuneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 458BAFC1E96748EB1870E463A2863ED4 /* Pods-watchTuneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9DF48A14DC2B9EA5B53A2FCF33BF41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFC14F80376BB4982ABD3083555448A /* Foundation.framework */; };
+		2030B1A503101DB5F4D10C5B6756B4E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFC14F80376BB4982ABD3083555448A /* Foundation.framework */; };
+		2692C852C0FAED686CB39F2F2445D29C /* BAFluidView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42871374FF704BAFA69178F1C871C2BF /* BAFluidView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C93B898B404A23FE603CA6C92EC61D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFC14F80376BB4982ABD3083555448A /* Foundation.framework */; };
+		39C5DDF055BD85EB2EA9A41425FC35B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D447DA61892748E7DC75168EF344A07A /* Foundation.framework */; };
+		3D93BFA783AC51FC2B428613DB3FE9C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7792D1866281A29839181CB319522D /* UIKit.framework */; };
+		4008D08BF45E74608C4F66F15A560363 /* BAFluidView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C36EB320DD89443913AA3F0322F694A /* BAFluidView-dummy.m */; };
+		431ED76186EC8EE6627981E587B34CE7 /* AKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE0976330AFE1C4B4D1584CAA373A7C /* AKPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43751A3C0316E006243DFA4176181E95 /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6DA151567A9F275B85191141F1C34 /* UIColor+ColorWithHex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48737DB4C67CD2E4CB4C2BE2F6124D19 /* Pods-watchTune WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EADEA64805CE94C282D8F5866E013 /* Pods-watchTune WatchKit Extension-dummy.m */; };
+		4C4404DD5F2F8C5E6161AC302EA60CEC /* UIColor+ColorWithHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 4239D71D9B970E6C7C7B5F11976E798E /* UIColor+ColorWithHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B29673F55C496D52ED41BE32A2963C /* Pods-watchTuneUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58503A64FE161F097B57401FD6B4E9 /* Pods-watchTuneUITests-dummy.m */; };
+		78AE897FCF8A49C3E7C400432EF3BD09 /* AKPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B56B0C6A94654B7D1E4FA0C1A7EC24 /* AKPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E704E0C70D46947BAF07F4000E7E5F0 /* Pods-watchTune WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3AC2F26119E5F3CB02207A605AB02D /* Pods-watchTune WatchKit App-dummy.m */; };
+		92ED9AFA03689A6007F40A4184CF6AE4 /* Pods-watchTune WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A629C177E2ADF41FAFB82F027EFCCF /* Pods-watchTune WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93C9BC496FE603AD8FC042B365577DBC /* Pods-watchTune-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70046F4730B996F73DAA387CA663726 /* Pods-watchTune-dummy.m */; };
+		95CEE03DFD89AF11009548F9492567A7 /* Pods-watchTune WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF0EBA13F67B92CD75A4C7A42B5EFF6 /* Pods-watchTune WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A088FA1E132AA443FDB699A0770CCA11 /* Pods-watchTuneUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A84803A6B2272CD547F17FE8667A3A2B /* Pods-watchTuneUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED9B49DD5FFC3CA6128A05F90DFC8E3 /* BAFluidView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BDE042837B1BF9158A35CD7DBFBCD7 /* BAFluidView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C352C1A15AFFEA929318DAE6D7A9A3BE /* Pods-watchTune-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D16E33A47582E95F5947E1E812431930 /* Pods-watchTune-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEAD0E70937074261CC87DBE055954E8 /* AKPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C88F2EA4458E7372B8BDAC0C23D7D778 /* AKPickerView-dummy.m */; };
+		E16AC59AABC4FF37CF07B815AC3A878D /* BAFluidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BFD7660817B8652438BA0C5B504155 /* BAFluidView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1BB0DCA064A2BEDDFC4322FFEDBEF16 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5061BBA4F9F5CA5C3959E2B0205188 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF5DEACA5D5E0F23E7A0CFC13F46212 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679694A3F7A1283E02213D8CB04BA23 /* QuartzCore.framework */; };
+		FDA1DA0B7C1671645663608FB5B90654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D447DA61892748E7DC75168EF344A07A /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E736D9AA7E0A5C02B4F3C55215C12491 /* PBXContainerItemProxy */ = {
+		3F59D6240F2F7C2B0BB867E96AFA4D82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41804C3F7B422752ED4744DAA6DB60C1;
+			remoteGlobalIDString = FA96E1C8B668A4AA298CA4753042E43B;
 			remoteInfo = BAFluidView;
+		};
+		414C93071D8BD2E39848D2D8500AEDC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9436BFB5A8CC69A656A84504A1871F3;
+			remoteInfo = AKPickerView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036DC9414C4288C0943BE188D685618D /* AKPitchShifterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPitchShifterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h; sourceTree = "<group>"; };
-		0492D3330B010ABA0FB51DBC176BE78F /* AKPWMOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPWMOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
-		0638D77B4AF77A40749400C1D9079FD0 /* BAFluidView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BAFluidView-umbrella.h"; sourceTree = "<group>"; };
-		069EC3875930D9D7F1ED1EC6A7292FE8 /* BAFluidView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BAFluidView.m; path = Pod/Classes/BAFluidView.m; sourceTree = "<group>"; };
-		076E8C7199F06D6549EC156115E3504E /* AKBandRejectButterworthFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBandRejectButterworthFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h; sourceTree = "<group>"; };
-		09A340CD443FE70897A07B022149DF77 /* AKOperationGeneratorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOperationGeneratorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h; sourceTree = "<group>"; };
-		0AC549CD3CCE831BA00EE53E2FEA518B /* AKOfflineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOfflineRenderer.h; path = iOS/AudioKit.framework/Headers/AKOfflineRenderer.h; sourceTree = "<group>"; };
-		0F500744153D0DB102C3FF34A013DC0C /* AKBitCrusherAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBitCrusherAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h; sourceTree = "<group>"; };
+		01595A900EE7C826217A785EE4D16C8D /* AKMoogLadderAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMoogLadderAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h; sourceTree = "<group>"; };
+		020ECF0C20443BBC139C23C635C3D20D /* AKMandolinAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMandolinAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMandolinAudioUnit.h; sourceTree = "<group>"; };
+		07B56B0C6A94654B7D1E4FA0C1A7EC24 /* AKPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPickerView-umbrella.h"; sourceTree = "<group>"; };
+		08CD489EB622318E6D3A53DA9C162987 /* AKResonantFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKResonantFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h; sourceTree = "<group>"; };
+		0C247ACD525D0461EA7E5F657EC656CB /* AKBandPassButterworthFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBandPassButterworthFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h; sourceTree = "<group>"; };
+		0C7792D1866281A29839181CB319522D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		10B7C94FE9DF05B6E397B9A91E3A5369 /* Pods-watchTuneUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTuneUITests-resources.sh"; sourceTree = "<group>"; };
 		11C16523DDA5267EDEF23ACE94DAEABC /* Pods-watchTuneTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTuneTests-frameworks.sh"; sourceTree = "<group>"; };
-		1320C89B66DCF95561F6D3123B2678C8 /* AKOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
-		145EC393E6C4D0E4ED72B9E59F3DBBDB /* BAFluidView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BAFluidView.xcconfig; sourceTree = "<group>"; };
+		1402754ADB4B4F9E21F178C7026BD514 /* AKModalResonanceFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKModalResonanceFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h; sourceTree = "<group>"; };
 		15EB313F598B779B022D1A2C6521F5AD /* Pods-watchTune-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTune-frameworks.sh"; sourceTree = "<group>"; };
-		1658A3C035A8FC8CAD30267AE76E349B /* AKChowningReverbAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKChowningReverbAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h; sourceTree = "<group>"; };
-		1AAF98B4B2AE09A4ADA639D12F8FC4F8 /* AKHighShelfParametricEqualizerFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKHighShelfParametricEqualizerFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h; sourceTree = "<group>"; };
-		1D39878E8F436E8003F568CEDA2B920C /* AKDCBlockAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKDCBlockAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKDCBlockAudioUnit.h; sourceTree = "<group>"; };
-		1D472E61175300CD143267AAD2D6CC19 /* EZAudioUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioUtilities.h; path = iOS/AudioKit.framework/Headers/EZAudioUtilities.h; sourceTree = "<group>"; };
+		1B06C2F29A06F453895573BAD0EBE800 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = iOS/AudioKit.framework; sourceTree = "<group>"; };
+		1F3BEB226C917FA035013D230136B41D /* AKOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
+		1FDA7BFF5C2AB546B6BD2AD6A84CE78D /* AKFMOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFMOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h; sourceTree = "<group>"; };
 		1FDAE7E7F71EF9625DEBDD52937C8EC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22C0C312B7413B57FA29DA7472DE37A4 /* AKMetalBarAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMetalBarAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMetalBarAudioUnit.h; sourceTree = "<group>"; };
+		1FE0976330AFE1C4B4D1584CAA373A7C /* AKPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPickerView.h; path = AKPickerViewSample/AKPickerView/AKPickerView.h; sourceTree = "<group>"; };
+		22A36C2A6A364F9F0DDD26F04D2B26D5 /* AKTanhDistortionAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTanhDistortionAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h; sourceTree = "<group>"; };
+		22ADD86EF0133D544D86740E1B0CC6CD /* AKConvolutionAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKConvolutionAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKConvolutionAudioUnit.h; sourceTree = "<group>"; };
+		22EDC4DA55FF7C68DEBBDB01836EF844 /* AKWhiteNoiseAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKWhiteNoiseAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h; sourceTree = "<group>"; };
+		23A457204ACD7FB125E34D42FA416464 /* AKThreePoleLowpassFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKThreePoleLowpassFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h; sourceTree = "<group>"; };
 		24AAD2F6A6D2ADFC655B1AE4E9CDC654 /* Pods-watchTune-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watchTune-acknowledgements.plist"; sourceTree = "<group>"; };
-		2878E6D143D1D6B3281FC423A6866BF3 /* EZPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZPlot.h; path = iOS/AudioKit.framework/Headers/EZPlot.h; sourceTree = "<group>"; };
-		29F55F83DD30D10A9A7D03F4A7986D48 /* Pods-watchTuneUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-watchTuneUITests.modulemap"; sourceTree = "<group>"; };
-		2A7984C5F5B5A25FBAE1ADA3C76A1D9B /* AKPluckedStringAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPluckedStringAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h; sourceTree = "<group>"; };
+		26E64A6988DD188B3C35540907C9553B /* EZAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudio.h; path = iOS/AudioKit.framework/Headers/EZAudio.h; sourceTree = "<group>"; };
+		29F55F83DD30D10A9A7D03F4A7986D48 /* Pods-watchTuneUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-watchTuneUITests.modulemap"; sourceTree = "<group>"; };
 		2AC3856A2C8F4C9D053144A2073A1185 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B0620B6E5CDE6D2C3EC6FFBD5D5DD85 /* TPCircularBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = iOS/AudioKit.framework/Headers/TPCircularBuffer.h; sourceTree = "<group>"; };
+		2ADEA7B2B8407E0E0DC504C069A18172 /* EZRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZRecorder.h; path = iOS/AudioKit.framework/Headers/EZRecorder.h; sourceTree = "<group>"; };
+		2D7532F9A04C90CD42237B49539BF353 /* AKPhaseDistortionOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPhaseDistortionOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
 		2E19F344AAEE84C0946BD980106EEF28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EBC4F1CAB5ADB087E438C3AE7DC0C4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ED10EA03562786BB2CF1023E457B142 /* Pods-watchTune WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTune WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		2FFBE41E5EB3AD74BCC6D2BEA64923F5 /* BAFluidView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BAFluidView-dummy.m"; sourceTree = "<group>"; };
-		30CB5A1EB7FADB089058072D6F8DBA56 /* AKBalancerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBalancerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBalancerAudioUnit.h; sourceTree = "<group>"; };
-		316E8B37A54820F0E52D22466CC883FD /* AKCostelloReverbAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKCostelloReverbAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h; sourceTree = "<group>"; };
-		32F51836578EDF49DD027B06EC873282 /* AKPinkNoiseAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPinkNoiseAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h; sourceTree = "<group>"; };
-		3360BA1F9263B4BBDFB8589F4042EED1 /* Pods_watchTuneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_watchTuneUITests.framework; path = "Pods-watchTuneUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33ED8BBA9D7F2B3D13013087B7E4B72E /* AKFrequencyTrackerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFrequencyTrackerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h; sourceTree = "<group>"; };
-		36756D59FD92B96C927EED6941793A23 /* AKOperationEffectAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOperationEffectAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h; sourceTree = "<group>"; };
-		37B9BB5223959F6BD2E294B4C8A07797 /* AKBoosterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBoosterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBoosterAudioUnit.h; sourceTree = "<group>"; };
-		389BBB6A03B2729DFB250AB0C948E798 /* Pods-watchTune.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-watchTune.modulemap"; sourceTree = "<group>"; };
-		3935B885FF8DE1429DC8D9755D515DF6 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorWithHex.m"; path = "Pod/Classes/UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
-		3A8E52AE5B77EA2413E25686968F03B8 /* Pods_watchTune_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_watchTune_WatchKit_App.framework; path = "Pods-watchTune WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		317F4C9F832D5E3104A99446035EEFE3 /* AKBitCrusherAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBitCrusherAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBitCrusherAudioUnit.h; sourceTree = "<group>"; };
+		324F4C67CEACE4D457352A2B7BA76A40 /* AKPinkNoiseAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPinkNoiseAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPinkNoiseAudioUnit.h; sourceTree = "<group>"; };
+		334FDEF0CDCAE10CD4F630738C95ED7B /* AKCombFilterReverbAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKCombFilterReverbAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h; sourceTree = "<group>"; };
+		336CDF431F4B2F7FDE7B42F5B87C8AD2 /* AKKorgLowPassFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKKorgLowPassFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h; sourceTree = "<group>"; };
+		337171F0B693FD99E9FF7D9064409120 /* AKAutoWahAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAutoWahAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKAutoWahAudioUnit.h; sourceTree = "<group>"; };
+		358CE65F65AC27FEA2560132219693D2 /* AKStringResonatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKStringResonatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h; sourceTree = "<group>"; };
+		389BBB6A03B2729DFB250AB0C948E798 /* Pods-watchTune.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-watchTune.modulemap"; sourceTree = "<group>"; };
+		3B0150F4CA27EAD66DC95000EF51AEDB /* AKBalancerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBalancerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBalancerAudioUnit.h; sourceTree = "<group>"; };
 		3C3AC2F26119E5F3CB02207A605AB02D /* Pods-watchTune WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watchTune WatchKit App-dummy.m"; sourceTree = "<group>"; };
-		3CF0802D3E7F85A0D9C3A9C39DF4BA26 /* EZAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudio.h; path = iOS/AudioKit.framework/Headers/EZAudio.h; sourceTree = "<group>"; };
-		3E77EDAD29BBFA6DF5CE43ED5EEAC4B2 /* EZAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFile.h; path = iOS/AudioKit.framework/Headers/EZAudioFile.h; sourceTree = "<group>"; };
-		3F84E6FB1509E4C28D9EC79F2FAD41F8 /* EZAudioDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDevice.h; path = iOS/AudioKit.framework/Headers/EZAudioDevice.h; sourceTree = "<group>"; };
-		40BB4371CCA69FCD5AA6A658B3626346 /* AKConvolutionAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKConvolutionAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKConvolutionAudioUnit.h; sourceTree = "<group>"; };
+		3D1D9553FB4A6A921DAA877FC58F4439 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFC14F80376BB4982ABD3083555448A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F5061BBA4F9F5CA5C3959E2B0205188 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Pod/Classes/Constants.h; sourceTree = "<group>"; };
+		3FB334B0CE6996AA267E6AF1A4F15E54 /* AKOperationGeneratorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOperationGeneratorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h; sourceTree = "<group>"; };
+		4239D71D9B970E6C7C7B5F11976E798E /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorWithHex.h"; path = "Pod/Classes/UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		42871374FF704BAFA69178F1C871C2BF /* BAFluidView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAFluidView.h; path = Pod/Classes/BAFluidView.h; sourceTree = "<group>"; };
 		439EC3B4A22A924DA94BB545697C0AC9 /* Pods-watchTuneUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watchTuneUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44711CF4AF1A8C89CEDAC9AA90AEACBB /* AKMetalBarAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMetalBarAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMetalBarAudioUnit.h; sourceTree = "<group>"; };
 		458BAFC1E96748EB1870E463A2863ED4 /* Pods-watchTuneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watchTuneTests-umbrella.h"; sourceTree = "<group>"; };
-		49E0E00E68B2A2ADCBC2A426C7E3FB61 /* AudioKit-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AudioKit-Swift.h"; path = "iOS/AudioKit.framework/Headers/AudioKit-Swift.h"; sourceTree = "<group>"; };
-		4A8C004B7AAFE7E549C354EA0A519867 /* EZAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlayer.h; path = iOS/AudioKit.framework/Headers/EZAudioPlayer.h; sourceTree = "<group>"; };
-		503CB8566E70F89FB732471FB9F42425 /* AKFMOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFMOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
+		4669C44961EFB9590A1C76DAE579975D /* EZPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZPlot.h; path = iOS/AudioKit.framework/Headers/EZPlot.h; sourceTree = "<group>"; };
+		46BDE042837B1BF9158A35CD7DBFBCD7 /* BAFluidView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BAFluidView-umbrella.h"; sourceTree = "<group>"; };
+		49B6DA151567A9F275B85191141F1C34 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorWithHex.m"; path = "Pod/Classes/UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+		49BEC7D02E98E70241DC0E7EC2EE14B6 /* AKAmplitudeTrackerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAmplitudeTrackerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h; sourceTree = "<group>"; };
+		4BF0DA587DA5F858416A6E4F3F562CBF /* AKEqualizerFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKEqualizerFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h; sourceTree = "<group>"; };
+		4FFF740453E32C7995A4C5D58C10129C /* AKPWMOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPWMOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
+		514EFE341E75D0FCC2CF5BFC86EE6EB8 /* AKPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPickerView-prefix.pch"; sourceTree = "<group>"; };
+		523F863EC0E367A300E860B1B0062A42 /* AKPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5303F0FA9197B4FB95FF3DBBA5AEE7F5 /* Pods-watchTune WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-watchTune WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53ACEF69D003F429D59890BEAACADBFD /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Pod/Classes/Constants.h; sourceTree = "<group>"; };
-		541A61AF9C1ECF6331A31360330DBEEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		544ADA28CF5EF4FF9945C9963D515DED /* Pods-watchTuneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTuneTests.release.xcconfig"; sourceTree = "<group>"; };
-		560267766CA3600EFF6C6979DDF2812C /* EZMicrophone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZMicrophone.h; path = iOS/AudioKit.framework/Headers/EZMicrophone.h; sourceTree = "<group>"; };
-		57B129C979D7958941AEA1C9C56E6C56 /* AKToneFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKToneFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKToneFilterAudioUnit.h; sourceTree = "<group>"; };
-		5BF1B596BB8355BF296F8DE9A54DC31B /* EZAudioFFT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFFT.h; path = iOS/AudioKit.framework/Headers/EZAudioFFT.h; sourceTree = "<group>"; };
+		5C770977E8C64179D8CC2E5D1D1D044C /* AKFluteAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFluteAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFluteAudioUnit.h; sourceTree = "<group>"; };
 		5D43C02AE10D051F63B815211B8A0C9A /* Pods-watchTune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTune.debug.xcconfig"; sourceTree = "<group>"; };
 		5DD066C2CE7CEC4AF3A5866570891BA9 /* Pods-watchTune WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTune WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
-		5EDC8FAA32D0EAE416BD425E999A865E /* AKEqualizerFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKEqualizerFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKEqualizerFilterAudioUnit.h; sourceTree = "<group>"; };
-		60B0C0393AEEE7D453DDFF2DFBA3E586 /* AKCombFilterReverbAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKCombFilterReverbAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKCombFilterReverbAudioUnit.h; sourceTree = "<group>"; };
-		612742FE87A6D9DD1721147662A304FE /* AKPhaseLockedVocoderAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPhaseLockedVocoderAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h; sourceTree = "<group>"; };
-		64BC4903AC437F3B39EAD5198B8D52CD /* Pods_watchTune_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_watchTune_WatchKit_Extension.framework; path = "Pods-watchTune WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6647997C73B0B5E88885E144371E18F0 /* EZAudioDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDisplayLink.h; path = iOS/AudioKit.framework/Headers/EZAudioDisplayLink.h; sourceTree = "<group>"; };
 		669CBE827D96ADC545F1D4890BE05F30 /* Pods-watchTuneUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-watchTuneUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66A1B211B1F6F1321B0C4DF61474B26C /* Pods-watchTune WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-watchTune WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
-		66E328E548597AF17DF39994C6297884 /* AKKorgLowPassFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKKorgLowPassFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKKorgLowPassFilterAudioUnit.h; sourceTree = "<group>"; };
-		6806C86AB748CE2054D4F1F9BC86F756 /* BAFluidView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAFluidView.h; path = Pod/Classes/BAFluidView.h; sourceTree = "<group>"; };
-		6843F8E304F9150E9378A8E21D544225 /* AKAmplitudeTrackerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAmplitudeTrackerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h; sourceTree = "<group>"; };
-		68CD3A8EC1BDBAD738E2AFE8F60114B0 /* AKTremoloAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTremoloAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKTremoloAudioUnit.h; sourceTree = "<group>"; };
-		6EAF31D2624B74B52FF5B0706646BB30 /* EZAudioDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDisplayLink.h; path = iOS/AudioKit.framework/Headers/EZAudioDisplayLink.h; sourceTree = "<group>"; };
-		708D84B4536993F1FE0813AB17271CB4 /* Pods-watchTuneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-watchTuneTests.modulemap"; sourceTree = "<group>"; };
+		682F67AA5BED3E9B88E5DE60DF624FAE /* BAFluidView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BAFluidView-prefix.pch"; sourceTree = "<group>"; };
+		68FE4706804B7D84A78B2913C051D887 /* AKOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOscillatorAudioUnit.h; sourceTree = "<group>"; };
+		695E5948ABF2E0CFA73FE46F3F8BA7E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACC5FD5E35674DB193B1F05628BBA9B /* AKChowningReverbAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKChowningReverbAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKChowningReverbAudioUnit.h; sourceTree = "<group>"; };
+		6B3E0E37542EF0D59F40693FC65790FC /* EZAudioFloatData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatData.h; path = iOS/AudioKit.framework/Headers/EZAudioFloatData.h; sourceTree = "<group>"; };
+		708D84B4536993F1FE0813AB17271CB4 /* Pods-watchTuneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-watchTuneTests.modulemap"; sourceTree = "<group>"; };
 		72ED8AEBF438FBD7C4BB8CD2477CD0E3 /* Pods-watchTune WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTune WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
-		7554019F701CB203F084EB5D272F8AF4 /* AKFormantFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFormantFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h; sourceTree = "<group>"; };
-		768805953C3FD6BB19F2647C7B3350FC /* Pods_watchTune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_watchTune.framework; path = "Pods-watchTune.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A216754C16BA71405CE93DCA2B4E9D9 /* AKPWMOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPWMOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h; sourceTree = "<group>"; };
+		73BBA315AC9D68069E0E7755A7AB8472 /* AKHighShelfParametricEqualizerFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKHighShelfParametricEqualizerFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKHighShelfParametricEqualizerFilterAudioUnit.h; sourceTree = "<group>"; };
+		75A4B590AF53F280F30CBB73FE54CB80 /* AKFlatFrequencyResponseReverbAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFlatFrequencyResponseReverbAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h; sourceTree = "<group>"; };
+		796C144754CED24EF2C35636FD63CDAC /* EZAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFile.h; path = iOS/AudioKit.framework/Headers/EZAudioFile.h; sourceTree = "<group>"; };
 		7A9EADEA64805CE94C282D8F5866E013 /* Pods-watchTune WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watchTune WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
 		7B2A39E40BCF039E4D62A524CCBB7F3B /* Pods-watchTuneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watchTuneTests-dummy.m"; sourceTree = "<group>"; };
-		7D79BE488CA2F95A8798887814C2EAE8 /* AKToneComplementFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKToneComplementFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h; sourceTree = "<group>"; };
-		7FB6E20E82E7D5D24981132191F3D22F /* AKVariableDelayAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKVariableDelayAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h; sourceTree = "<group>"; };
-		815B232DD9F77BDF2576E76F04C8C806 /* AKDripAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKDripAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKDripAudioUnit.h; sourceTree = "<group>"; };
-		8170D7DBDBE81D7ACA85FFA93E2400D6 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorWithHex.h"; path = "Pod/Classes/UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		7C36EB320DD89443913AA3F0322F694A /* BAFluidView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BAFluidView-dummy.m"; sourceTree = "<group>"; };
+		7E67A1315B3C243C8B346F816CB16805 /* AKDripAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKDripAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKDripAudioUnit.h; sourceTree = "<group>"; };
+		80013CC22539955E38802E4C80A8E985 /* EZAudioDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDevice.h; path = iOS/AudioKit.framework/Headers/EZAudioDevice.h; sourceTree = "<group>"; };
 		820FA1568868D2384FF37B0DBF142A4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		843255F322C3AEE06AD4C88B15646964 /* AKStringResonatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKStringResonatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKStringResonatorAudioUnit.h; sourceTree = "<group>"; };
-		86FF9FD323C0796F581DBD0D3EFC1CF0 /* AKPhaseDistortionOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPhaseDistortionOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h; sourceTree = "<group>"; };
-		891D697B2AEDCAD564828A8EE7FC5C26 /* AKRolandTB303FilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKRolandTB303FilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h; sourceTree = "<group>"; };
-		89AFF9F979D436D8C92F547E97E2BE9A /* AKAmplitudeEnvelopeAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAmplitudeEnvelopeAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h; sourceTree = "<group>"; };
-		8D42E586D992479D583DCB5D69FB7CB4 /* Pods-watchTune WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-watchTune WatchKit Extension.modulemap"; sourceTree = "<group>"; };
-		930786274BE70C43CFE3697C0C84736E /* AKTesterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTesterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKTesterAudioUnit.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		979AFBE2CDA452E9947292AD61DC2C97 /* AKLowShelfParametricEqualizerFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKLowShelfParametricEqualizerFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h; sourceTree = "<group>"; };
-		98535BDBFEF6F0758B142C6FD33214E9 /* Pods-watchTune WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-watchTune WatchKit App.modulemap"; sourceTree = "<group>"; };
-		9930F78A5942100C8BABBCF7C36D0EC5 /* EZAudioPlotGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlotGL.h; path = iOS/AudioKit.framework/Headers/EZAudioPlotGL.h; sourceTree = "<group>"; };
+		83D5D1A314E0EB97F3C65B105AFD2AED /* AKOperationEffectAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOperationEffectAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h; sourceTree = "<group>"; };
+		84466E95030D53F2E43DEB18CED5F9AD /* AKMorphingOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMorphingOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
+		845EE71EA858820007CCCE01A7F90855 /* AKPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AKPickerView.modulemap; sourceTree = "<group>"; };
+		8679694A3F7A1283E02213D8CB04BA23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		86BFD7660817B8652438BA0C5B504155 /* BAFluidView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BAFluidView.m; path = Pod/Classes/BAFluidView.m; sourceTree = "<group>"; };
+		890DA54E91C84C59D1219B6A20B1456C /* AKLowShelfParametricEqualizerFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKLowShelfParametricEqualizerFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKLowShelfParametricEqualizerFilterAudioUnit.h; sourceTree = "<group>"; };
+		8957068F0E6E9407DE249F1D15A35E46 /* EZAudioFFT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFFT.h; path = iOS/AudioKit.framework/Headers/EZAudioFFT.h; sourceTree = "<group>"; };
+		8D42E586D992479D583DCB5D69FB7CB4 /* Pods-watchTune WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-watchTune WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		8D7AC242EC0B0028F2E3E76B686FCAB5 /* AKOfflineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOfflineRenderer.h; path = iOS/AudioKit.framework/Headers/AKOfflineRenderer.h; sourceTree = "<group>"; };
+		8DE1BB8554F2506F765CC1D5E7FD24F7 /* EZMicrophone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZMicrophone.h; path = iOS/AudioKit.framework/Headers/EZMicrophone.h; sourceTree = "<group>"; };
+		8E40529FCD3BDFCE2085A55D4425B985 /* AKPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKPickerView.xcconfig; sourceTree = "<group>"; };
+		8E783AAF0B8BE2B142BB72C21D88DC44 /* EZAudioUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioUtilities.h; path = iOS/AudioKit.framework/Headers/EZAudioUtilities.h; sourceTree = "<group>"; };
+		90D50702F91644F77C2E95A0B8F0E6B7 /* EZOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZOutput.h; path = iOS/AudioKit.framework/Headers/EZOutput.h; sourceTree = "<group>"; };
+		92EA56B0904505BFFC0BE51D4C7611F3 /* AKPWMOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPWMOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPWMOscillatorAudioUnit.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9455EAE6BA4B39F2513E6732E5B1A600 /* AudioKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioKit.h; path = iOS/AudioKit.framework/Headers/AudioKit.h; sourceTree = "<group>"; };
+		955BF16768284FA166EDD4B302D3B26B /* AKFormantFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFormantFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFormantFilterAudioUnit.h; sourceTree = "<group>"; };
+		97CE410436590B7F6A55B5E74715672C /* AKTesterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTesterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKTesterAudioUnit.h; sourceTree = "<group>"; };
+		9819ABCB1B6E69FEE84896C23E600E85 /* Pods_watchTuneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTuneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98535BDBFEF6F0758B142C6FD33214E9 /* Pods-watchTune WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-watchTune WatchKit App.modulemap"; sourceTree = "<group>"; };
 		993B1A2430B3E92104A4A9D07598C29C /* Pods-watchTune-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTune-resources.sh"; sourceTree = "<group>"; };
-		9CEC9AA81550770F1ED1FEE57EE5B847 /* AKBandPassButterworthFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBandPassButterworthFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBandPassButterworthFilterAudioUnit.h; sourceTree = "<group>"; };
-		9CF8DF5AB7960DE7DCE3233F996CCE54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A00DF351202F686F9E8833011AC04A8B /* AKMorphingOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMorphingOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
-		A0432870E51DF977435AEA69A2A8CFD9 /* Pods_watchTuneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_watchTuneTests.framework; path = "Pods-watchTuneTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3053CBF59932E5020A4921BC36973FB /* AKLowPassButterworthFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKLowPassButterworthFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h; sourceTree = "<group>"; };
-		A4A143E9BE993495F50AFE01FD2B8F9F /* AKHighPassButterworthFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKHighPassButterworthFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h; sourceTree = "<group>"; };
+		9AB86484C7178A1F8A876B1409565256 /* AKBoosterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBoosterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBoosterAudioUnit.h; sourceTree = "<group>"; };
+		9CBB324DDEDC1ACD82822923A82601D8 /* AKPluckedStringAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPluckedStringAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPluckedStringAudioUnit.h; sourceTree = "<group>"; };
+		A27EC0EAB3EE7340CAAE206149714914 /* EZAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlayer.h; path = iOS/AudioKit.framework/Headers/EZAudioPlayer.h; sourceTree = "<group>"; };
+		A4674BEFBCDD038E8623927491AA33FD /* AudioKit-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AudioKit-Swift.h"; path = "iOS/AudioKit.framework/Headers/AudioKit-Swift.h"; sourceTree = "<group>"; };
 		A84803A6B2272CD547F17FE8667A3A2B /* Pods-watchTuneUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watchTuneUITests-umbrella.h"; sourceTree = "<group>"; };
 		A95C9CA448C0188778A0809F41649650 /* Pods-watchTuneTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTuneTests-resources.sh"; sourceTree = "<group>"; };
-		ABD9390F3038F03F8566D402BCA356E1 /* EZAudioFloatConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatConverter.h; path = iOS/AudioKit.framework/Headers/EZAudioFloatConverter.h; sourceTree = "<group>"; };
-		AC4F450C420462E902E07AA4595C631B /* AKOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOscillatorAudioUnit.h; sourceTree = "<group>"; };
-		AEF23596C00AF0EB5C31AD3FD86297A5 /* BAFluidView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BAFluidView-prefix.pch"; sourceTree = "<group>"; };
-		AFA28053B65DA1A3394D30A0ADFBA9A8 /* EZAudioPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlot.h; path = iOS/AudioKit.framework/Headers/EZAudioPlot.h; sourceTree = "<group>"; };
+		AA6A6F8D7A77EF665D8585E3E2CD994C /* AKCostelloReverbAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKCostelloReverbAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKCostelloReverbAudioUnit.h; sourceTree = "<group>"; };
 		B202FB8C9E9771B37218B62167892508 /* Pods-watchTune WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watchTune WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
-		B69BDBD95BDB2346E7918C599B14D381 /* BAFluidView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BAFluidView.modulemap; sourceTree = "<group>"; };
-		B8D187344CEC3FD33088227F6DC6CC15 /* BAFluidView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BAFluidView.framework; path = BAFluidView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC2682C0FEDFE0935C734A33D7AD02FA /* AKFMOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFMOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFMOscillatorAudioUnit.h; sourceTree = "<group>"; };
-		BC98449A55AF10656BD8556D28D3C4D7 /* EZOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZOutput.h; path = iOS/AudioKit.framework/Headers/EZOutput.h; sourceTree = "<group>"; };
+		B2AB4D23DF75F03377A42EECDFA63DDB /* AKClipperAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKClipperAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKClipperAudioUnit.h; sourceTree = "<group>"; };
+		BA0301BAC306614401BCF453790FEC82 /* AKFMOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFMOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
 		BCCB9E9C94A07D912A0FDE926D523D32 /* Pods-watchTune WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTune WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
-		C661894752D4453829DD5861FCFCDE75 /* AKFluteAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFluteAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFluteAudioUnit.h; sourceTree = "<group>"; };
+		BD28E9A0FB9C6A5C1D863775B09B1A08 /* AKPhaseLockedVocoderAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPhaseLockedVocoderAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPhaseLockedVocoderAudioUnit.h; sourceTree = "<group>"; };
+		C069ECDC5092EB15EDF609A29FC94802 /* AKTremoloAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTremoloAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKTremoloAudioUnit.h; sourceTree = "<group>"; };
+		C0DB22D4BEF09A962EB321035F7CA4F4 /* EZAudioFloatConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatConverter.h; path = iOS/AudioKit.framework/Headers/EZAudioFloatConverter.h; sourceTree = "<group>"; };
+		C18E85101E012B823F4399EAD7DFF0AB /* EZAudioPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlot.h; path = iOS/AudioKit.framework/Headers/EZAudioPlot.h; sourceTree = "<group>"; };
+		C88F2EA4458E7372B8BDAC0C23D7D778 /* AKPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKPickerView-dummy.m"; sourceTree = "<group>"; };
 		C8F14E5DDAF1B773E200FF2EB887170C /* Pods-watchTune WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTune WatchKit App-resources.sh"; sourceTree = "<group>"; };
-		C9E25A3FE9ECB94D2250A8C84756835B /* EZAudioFloatData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatData.h; path = iOS/AudioKit.framework/Headers/EZAudioFloatData.h; sourceTree = "<group>"; };
-		CD6106A440D555646B53BD329EC0E9B8 /* AKResonantFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKResonantFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKResonantFilterAudioUnit.h; sourceTree = "<group>"; };
 		CE58503A64FE161F097B57401FD6B4E9 /* Pods-watchTuneUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watchTuneUITests-dummy.m"; sourceTree = "<group>"; };
-		CF367FB34C04521A95970334D805780C /* AKWhiteNoiseAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKWhiteNoiseAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKWhiteNoiseAudioUnit.h; sourceTree = "<group>"; };
+		CF6F7F6C53C23755D191D746DBCAE2BE /* AKPhaseDistortionOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPhaseDistortionOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorAudioUnit.h; sourceTree = "<group>"; };
 		CFE26CCD17B6B38EA91867E919EC80BE /* Pods-watchTuneUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchTuneUITests-frameworks.sh"; sourceTree = "<group>"; };
 		D15B8DAF369E0AF1E2B2796469229CCC /* Pods-watchTune WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTune WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		D16E33A47582E95F5947E1E812431930 /* Pods-watchTune-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watchTune-umbrella.h"; sourceTree = "<group>"; };
 		D28D6A70712874ECE062A6E4F25BD72A /* Pods-watchTune WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watchTune WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		D38A582D4AA4859B7330E30B5D63D10E /* AKModalResonanceFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKModalResonanceFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKModalResonanceFilterAudioUnit.h; sourceTree = "<group>"; };
 		D3C821089FEE861AA80D86D440C801F2 /* Pods-watchTuneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-watchTuneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D557E26ADCDFB59EA2EC7367BEB2A2A9 /* AKClipperAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKClipperAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKClipperAudioUnit.h; sourceTree = "<group>"; };
+		D447DA61892748E7DC75168EF344A07A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D46A32A8BAB79AB754CDE01ACBE72ABE /* Pods_watchTuneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTuneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BEB3299CAF5EBCE97CD79701D2DC98 /* AKPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKPickerView.m; path = AKPickerViewSample/AKPickerView/AKPickerView.m; sourceTree = "<group>"; };
 		D70046F4730B996F73DAA387CA663726 /* Pods-watchTune-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watchTune-dummy.m"; sourceTree = "<group>"; };
+		D741ADA4BC8E00CDC29464AC93A0C8E1 /* Pods_watchTune_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D768EAD6E0FFC2D08E88B701B536734B /* Pods-watchTuneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTuneUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D838EF91E8DF0B2D03DF4ED7D616C4CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DAABC2BB3E3FAD12DE3BAA21C9A7A587 /* AKThreePoleLowpassFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKThreePoleLowpassFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKThreePoleLowpassFilterAudioUnit.h; sourceTree = "<group>"; };
-		DD03E1E04FF6E494906B30DA0854B77A /* AKTanhDistortionAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTanhDistortionAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKTanhDistortionAudioUnit.h; sourceTree = "<group>"; };
+		D82CF1E90FB9B9DF2AD26864B4348CB8 /* AKLowPassButterworthFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKLowPassButterworthFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKLowPassButterworthFilterAudioUnit.h; sourceTree = "<group>"; };
+		D83A189C5111A638D173CF62289CBB81 /* Pods_watchTune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C6689438238A2A258A2E0EE91940A4 /* AKToneFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKToneFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKToneFilterAudioUnit.h; sourceTree = "<group>"; };
+		D8EA225A8B9534D0F73C56C387416217 /* AKAmplitudeEnvelopeAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAmplitudeEnvelopeAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKAmplitudeEnvelopeAudioUnit.h; sourceTree = "<group>"; };
+		D96EF13F0237519428897757BA707B73 /* Pods_watchTune_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD3150C63D86497170C517DB55B3A9C /* AKBandRejectButterworthFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBandRejectButterworthFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBandRejectButterworthFilterAudioUnit.h; sourceTree = "<group>"; };
+		DDDEAD84F03A02C84C065F93F772283F /* AKMorphingOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMorphingOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h; sourceTree = "<group>"; };
 		DEAC68372A287EDDDDC8971914F57F0A /* Pods-watchTune-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-watchTune-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DF6499FF84046097159884382CF0A160 /* AKMoogLadderAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMoogLadderAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMoogLadderAudioUnit.h; sourceTree = "<group>"; };
-		DF67D862440E8412E1C48E1E1D8605FD /* AKPeakingParametricEqualizerFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPeakingParametricEqualizerFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h; sourceTree = "<group>"; };
-		E3C08A9C1CC4FE8790B7DA40F022CBFE /* AKAutoWahAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAutoWahAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKAutoWahAudioUnit.h; sourceTree = "<group>"; };
 		E3C52ADD7BEED2C64D2D8C2C82FF2B86 /* Pods-watchTune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTune.release.xcconfig"; sourceTree = "<group>"; };
-		E45238ED6298EC4DADE9A95DC6EE7B30 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = iOS/AudioKit.framework; sourceTree = "<group>"; };
-		E6AC1408C84494B1CD847BB393C75E64 /* AKPannerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPannerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPannerAudioUnit.h; sourceTree = "<group>"; };
+		E52E8872DD3536107740C2C5C510B29D /* AKPitchShifterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPitchShifterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPitchShifterAudioUnit.h; sourceTree = "<group>"; };
+		E66E809713C1A72215395F4D8E08C0D1 /* AKToneComplementFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKToneComplementFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKToneComplementFilterAudioUnit.h; sourceTree = "<group>"; };
+		E81C223644C8514834050F91E9444738 /* AKPeakingParametricEqualizerFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPeakingParametricEqualizerFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPeakingParametricEqualizerFilterAudioUnit.h; sourceTree = "<group>"; };
+		E8FE7A894CAB9BC8F12398C6BC763C8C /* TPCircularBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = iOS/AudioKit.framework/Headers/TPCircularBuffer.h; sourceTree = "<group>"; };
+		EAC464594152F47CAE71053A15EA1FB5 /* AKRolandTB303FilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKRolandTB303FilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKRolandTB303FilterAudioUnit.h; sourceTree = "<group>"; };
 		EB4689122177B6976DF38B987D8B5289 /* Pods-watchTuneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTuneTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F23FD91FDCAF216DAF7E36062310F6F0 /* AudioKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioKit.h; path = iOS/AudioKit.framework/Headers/AudioKit.h; sourceTree = "<group>"; };
+		EBA1B0AD68B4613438E01EC1050AC4ED /* AKDCBlockAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKDCBlockAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKDCBlockAudioUnit.h; sourceTree = "<group>"; };
+		EC4964891F317E7B1FBB85F40581B66B /* BAFluidView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BAFluidView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC55CD3CDA8840ABC2A50549EE212228 /* AKFrequencyTrackerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFrequencyTrackerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h; sourceTree = "<group>"; };
+		ECF8E10416B48619B08C395300209E69 /* AKHighPassButterworthFilterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKHighPassButterworthFilterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKHighPassButterworthFilterAudioUnit.h; sourceTree = "<group>"; };
+		F1467DC799FE207B1D02F5815E5D8974 /* BAFluidView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BAFluidView.xcconfig; sourceTree = "<group>"; };
 		F4A52D71B4095B2615F91C20739E81D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E225BF204C8E8A3795EBE253337299 /* BAFluidView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BAFluidView.modulemap; sourceTree = "<group>"; };
 		F70D20A71EC60C5900E0D98E83E04AE2 /* Pods-watchTuneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watchTuneTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F7D49E1438065B73F89178CDED9D6F04 /* AKPhaseDistortionOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPhaseDistortionOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
+		F7FD4093CCBE825DDB1D21DBEB750E3E /* AKVariableDelayAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKVariableDelayAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKVariableDelayAudioUnit.h; sourceTree = "<group>"; };
 		F83CE4B614A19EE1B683D4E7ED596975 /* Pods-watchTune WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTune WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
-		F955A4C7351B13EE58BF6F80ABEF4162 /* AKMorphingOscillatorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMorphingOscillatorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMorphingOscillatorAudioUnit.h; sourceTree = "<group>"; };
 		F9A629C177E2ADF41FAFB82F027EFCCF /* Pods-watchTune WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watchTune WatchKit App-umbrella.h"; sourceTree = "<group>"; };
-		F9D03F777E6D2CC06B72FEDB46D46746 /* EZRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZRecorder.h; path = iOS/AudioKit.framework/Headers/EZRecorder.h; sourceTree = "<group>"; };
+		F9A8D3B522D3F57F8BA9033BE4BACF3E /* AKPannerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPannerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPannerAudioUnit.h; sourceTree = "<group>"; };
 		FAF0EBA13F67B92CD75A4C7A42B5EFF6 /* Pods-watchTune WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watchTune WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
-		FB498894F56330B636EED35E9587F228 /* AKMandolinAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMandolinAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMandolinAudioUnit.h; sourceTree = "<group>"; };
+		FBB5E2CAAAAC81EC8B3AB382B069712C /* EZAudioPlotGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlotGL.h; path = iOS/AudioKit.framework/Headers/EZAudioPlotGL.h; sourceTree = "<group>"; };
 		FBE6B0BCDA42991E1C3A8C8A35B00B7A /* Pods-watchTuneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTuneUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		FC3B88156700DC9034D376E772BB057E /* AKFlatFrequencyResponseReverbAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFlatFrequencyResponseReverbAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFlatFrequencyResponseReverbAudioUnit.h; sourceTree = "<group>"; };
 		FC911199C80A121097AD29980E3A12D8 /* Pods-watchTune WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchTune WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3370BFDC2B3E8F8D81A4B329D13BC260 /* Frameworks */ = {
+		26DF11D0D3B775CD6A4F7218A4F9D9A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBCF8091A5128EE9376F5FE5F5387E8B /* Foundation.framework in Frameworks */,
+				39C5DDF055BD85EB2EA9A41425FC35B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3DD98C7809B3F5144BC749440A948B8 /* Frameworks */ = {
+		3428DC24B08325997D4847A658D36C90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD9A709CC4E08D6EE72BBA6D0B3978B5 /* Foundation.framework in Frameworks */,
+				0361AC7E68A5BC20B40CEB8346919EA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3A31D60250DC49A2BA7226AA26CBEF9 /* Frameworks */ = {
+		400FAF6717D8BD1EEE3D9B116A5EB638 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFED1A21EACCC92D39FB489896DAFA12 /* Foundation.framework in Frameworks */,
+				35C93B898B404A23FE603CA6C92EC61D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1C362B00565B7FBE98494F832771A9F /* Frameworks */ = {
+		6DEC6E3C872B1D3634E18E5ECED5E7F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F549786CECED2ED46829094A6CE5AC2E /* Foundation.framework in Frameworks */,
+				072C54FE93DAF4E6904CA4049205E7FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA869BB1684714C23890DACCA55E435F /* Frameworks */ = {
+		B4C1E4D5E4EB7CC6AFB8949137005DBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E22F365D7245EEB9A8BD18F3D5CCF20 /* Foundation.framework in Frameworks */,
-				919AA350B97B1A8930D3F17431C718B0 /* UIKit.framework in Frameworks */,
+				FDA1DA0B7C1671645663608FB5B90654 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF4145B7CCF9E3740E2DE94B9050A60B /* Frameworks */ = {
+		B741F364DAC28BA7928AF71AFAFA32AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527E8CBFD070E8FF572456553253DAAC /* Foundation.framework in Frameworks */,
+				1E9DF48A14DC2B9EA5B53A2FCF33BF41 /* Foundation.framework in Frameworks */,
+				3D93BFA783AC51FC2B428613DB3FE9C3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51901E73CC2EA0FDE383866A8BB20AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2030B1A503101DB5F4D10C5B6756B4E2 /* Foundation.framework in Frameworks */,
+				EAF5DEACA5D5E0F23E7A0CFC13F46212 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		181E8B90201E47A6805F733C8F7D439B /* Pods */ = {
+		04741833CEFEBC220CF8AFBC13143F1B /* AudioKit */ = {
 			isa = PBXGroup;
 			children = (
-				6ADEAD8632DBB085C419287E08EBA85A /* AudioKit */,
-				5EC592F2B44FC8FF6C3386ED4144D907 /* BAFluidView */,
+				D8EA225A8B9534D0F73C56C387416217 /* AKAmplitudeEnvelopeAudioUnit.h */,
+				49BEC7D02E98E70241DC0E7EC2EE14B6 /* AKAmplitudeTrackerAudioUnit.h */,
+				337171F0B693FD99E9FF7D9064409120 /* AKAutoWahAudioUnit.h */,
+				3B0150F4CA27EAD66DC95000EF51AEDB /* AKBalancerAudioUnit.h */,
+				0C247ACD525D0461EA7E5F657EC656CB /* AKBandPassButterworthFilterAudioUnit.h */,
+				DAD3150C63D86497170C517DB55B3A9C /* AKBandRejectButterworthFilterAudioUnit.h */,
+				317F4C9F832D5E3104A99446035EEFE3 /* AKBitCrusherAudioUnit.h */,
+				9AB86484C7178A1F8A876B1409565256 /* AKBoosterAudioUnit.h */,
+				6ACC5FD5E35674DB193B1F05628BBA9B /* AKChowningReverbAudioUnit.h */,
+				B2AB4D23DF75F03377A42EECDFA63DDB /* AKClipperAudioUnit.h */,
+				334FDEF0CDCAE10CD4F630738C95ED7B /* AKCombFilterReverbAudioUnit.h */,
+				22ADD86EF0133D544D86740E1B0CC6CD /* AKConvolutionAudioUnit.h */,
+				AA6A6F8D7A77EF665D8585E3E2CD994C /* AKCostelloReverbAudioUnit.h */,
+				EBA1B0AD68B4613438E01EC1050AC4ED /* AKDCBlockAudioUnit.h */,
+				7E67A1315B3C243C8B346F816CB16805 /* AKDripAudioUnit.h */,
+				4BF0DA587DA5F858416A6E4F3F562CBF /* AKEqualizerFilterAudioUnit.h */,
+				75A4B590AF53F280F30CBB73FE54CB80 /* AKFlatFrequencyResponseReverbAudioUnit.h */,
+				5C770977E8C64179D8CC2E5D1D1D044C /* AKFluteAudioUnit.h */,
+				1FDA7BFF5C2AB546B6BD2AD6A84CE78D /* AKFMOscillatorAudioUnit.h */,
+				BA0301BAC306614401BCF453790FEC82 /* AKFMOscillatorBankAudioUnit.h */,
+				955BF16768284FA166EDD4B302D3B26B /* AKFormantFilterAudioUnit.h */,
+				EC55CD3CDA8840ABC2A50549EE212228 /* AKFrequencyTrackerAudioUnit.h */,
+				ECF8E10416B48619B08C395300209E69 /* AKHighPassButterworthFilterAudioUnit.h */,
+				73BBA315AC9D68069E0E7755A7AB8472 /* AKHighShelfParametricEqualizerFilterAudioUnit.h */,
+				336CDF431F4B2F7FDE7B42F5B87C8AD2 /* AKKorgLowPassFilterAudioUnit.h */,
+				D82CF1E90FB9B9DF2AD26864B4348CB8 /* AKLowPassButterworthFilterAudioUnit.h */,
+				890DA54E91C84C59D1219B6A20B1456C /* AKLowShelfParametricEqualizerFilterAudioUnit.h */,
+				020ECF0C20443BBC139C23C635C3D20D /* AKMandolinAudioUnit.h */,
+				44711CF4AF1A8C89CEDAC9AA90AEACBB /* AKMetalBarAudioUnit.h */,
+				1402754ADB4B4F9E21F178C7026BD514 /* AKModalResonanceFilterAudioUnit.h */,
+				01595A900EE7C826217A785EE4D16C8D /* AKMoogLadderAudioUnit.h */,
+				DDDEAD84F03A02C84C065F93F772283F /* AKMorphingOscillatorAudioUnit.h */,
+				84466E95030D53F2E43DEB18CED5F9AD /* AKMorphingOscillatorBankAudioUnit.h */,
+				8D7AC242EC0B0028F2E3E76B686FCAB5 /* AKOfflineRenderer.h */,
+				83D5D1A314E0EB97F3C65B105AFD2AED /* AKOperationEffectAudioUnit.h */,
+				3FB334B0CE6996AA267E6AF1A4F15E54 /* AKOperationGeneratorAudioUnit.h */,
+				68FE4706804B7D84A78B2913C051D887 /* AKOscillatorAudioUnit.h */,
+				1F3BEB226C917FA035013D230136B41D /* AKOscillatorBankAudioUnit.h */,
+				F9A8D3B522D3F57F8BA9033BE4BACF3E /* AKPannerAudioUnit.h */,
+				E81C223644C8514834050F91E9444738 /* AKPeakingParametricEqualizerFilterAudioUnit.h */,
+				CF6F7F6C53C23755D191D746DBCAE2BE /* AKPhaseDistortionOscillatorAudioUnit.h */,
+				2D7532F9A04C90CD42237B49539BF353 /* AKPhaseDistortionOscillatorBankAudioUnit.h */,
+				BD28E9A0FB9C6A5C1D863775B09B1A08 /* AKPhaseLockedVocoderAudioUnit.h */,
+				324F4C67CEACE4D457352A2B7BA76A40 /* AKPinkNoiseAudioUnit.h */,
+				E52E8872DD3536107740C2C5C510B29D /* AKPitchShifterAudioUnit.h */,
+				9CBB324DDEDC1ACD82822923A82601D8 /* AKPluckedStringAudioUnit.h */,
+				92EA56B0904505BFFC0BE51D4C7611F3 /* AKPWMOscillatorAudioUnit.h */,
+				4FFF740453E32C7995A4C5D58C10129C /* AKPWMOscillatorBankAudioUnit.h */,
+				08CD489EB622318E6D3A53DA9C162987 /* AKResonantFilterAudioUnit.h */,
+				EAC464594152F47CAE71053A15EA1FB5 /* AKRolandTB303FilterAudioUnit.h */,
+				358CE65F65AC27FEA2560132219693D2 /* AKStringResonatorAudioUnit.h */,
+				22A36C2A6A364F9F0DDD26F04D2B26D5 /* AKTanhDistortionAudioUnit.h */,
+				97CE410436590B7F6A55B5E74715672C /* AKTesterAudioUnit.h */,
+				23A457204ACD7FB125E34D42FA416464 /* AKThreePoleLowpassFilterAudioUnit.h */,
+				E66E809713C1A72215395F4D8E08C0D1 /* AKToneComplementFilterAudioUnit.h */,
+				D8C6689438238A2A258A2E0EE91940A4 /* AKToneFilterAudioUnit.h */,
+				C069ECDC5092EB15EDF609A29FC94802 /* AKTremoloAudioUnit.h */,
+				F7FD4093CCBE825DDB1D21DBEB750E3E /* AKVariableDelayAudioUnit.h */,
+				22EDC4DA55FF7C68DEBBDB01836EF844 /* AKWhiteNoiseAudioUnit.h */,
+				9455EAE6BA4B39F2513E6732E5B1A600 /* AudioKit.h */,
+				A4674BEFBCDD038E8623927491AA33FD /* AudioKit-Swift.h */,
+				26E64A6988DD188B3C35540907C9553B /* EZAudio.h */,
+				80013CC22539955E38802E4C80A8E985 /* EZAudioDevice.h */,
+				6647997C73B0B5E88885E144371E18F0 /* EZAudioDisplayLink.h */,
+				8957068F0E6E9407DE249F1D15A35E46 /* EZAudioFFT.h */,
+				796C144754CED24EF2C35636FD63CDAC /* EZAudioFile.h */,
+				C0DB22D4BEF09A962EB321035F7CA4F4 /* EZAudioFloatConverter.h */,
+				6B3E0E37542EF0D59F40693FC65790FC /* EZAudioFloatData.h */,
+				A27EC0EAB3EE7340CAAE206149714914 /* EZAudioPlayer.h */,
+				C18E85101E012B823F4399EAD7DFF0AB /* EZAudioPlot.h */,
+				FBB5E2CAAAAC81EC8B3AB382B069712C /* EZAudioPlotGL.h */,
+				8E783AAF0B8BE2B142BB72C21D88DC44 /* EZAudioUtilities.h */,
+				8DE1BB8554F2506F765CC1D5E7FD24F7 /* EZMicrophone.h */,
+				90D50702F91644F77C2E95A0B8F0E6B7 /* EZOutput.h */,
+				4669C44961EFB9590A1C76DAE579975D /* EZPlot.h */,
+				2ADEA7B2B8407E0E0DC504C069A18172 /* EZRecorder.h */,
+				E8FE7A894CAB9BC8F12398C6BC763C8C /* TPCircularBuffer.h */,
+				91F8CA5C6CFF1C5DB56F9200BB864444 /* Frameworks */,
 			);
-			name = Pods;
+			path = AudioKit;
+			sourceTree = "<group>";
+		};
+		0A6E62EF2C63A599E6CDEC7700BDA487 /* AKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1FE0976330AFE1C4B4D1584CAA373A7C /* AKPickerView.h */,
+				D5BEB3299CAF5EBCE97CD79701D2DC98 /* AKPickerView.m */,
+				754EF1F57B327CC320C45EF88D104151 /* Support Files */,
+			);
+			path = AKPickerView;
 			sourceTree = "<group>";
 		};
 		1B359C2AEF89E03F8169BB61D99DB315 /* Pods-watchTune WatchKit App */ = {
@@ -293,18 +411,14 @@
 			path = "Target Support Files/Pods-watchTuneTests";
 			sourceTree = "<group>";
 		};
-		5EC592F2B44FC8FF6C3386ED4144D907 /* BAFluidView */ = {
+		510A8EC97565F460D008E9F57D5643EE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6806C86AB748CE2054D4F1F9BC86F756 /* BAFluidView.h */,
-				069EC3875930D9D7F1ED1EC6A7292FE8 /* BAFluidView.m */,
-				53ACEF69D003F429D59890BEAACADBFD /* Constants.h */,
-				8170D7DBDBE81D7ACA85FFA93E2400D6 /* UIColor+ColorWithHex.h */,
-				3935B885FF8DE1429DC8D9755D515DF6 /* UIColor+ColorWithHex.m */,
-				E23BB88945E7CBD1589367D56DACF099 /* Support Files */,
+				3DFC14F80376BB4982ABD3083555448A /* Foundation.framework */,
+				8679694A3F7A1283E02213D8CB04BA23 /* QuartzCore.framework */,
+				0C7792D1866281A29839181CB319522D /* UIKit.framework */,
 			);
-			name = BAFluidView;
-			path = BAFluidView;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6ACA10B68C455DFE39D52CC5BB17EB55 /* Pods-watchTune WatchKit Extension */ = {
@@ -325,116 +439,68 @@
 			path = "Target Support Files/Pods-watchTune WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		6ADEAD8632DBB085C419287E08EBA85A /* AudioKit */ = {
+		708EBCEDF025C54D7A164A4E4E733BB8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				89AFF9F979D436D8C92F547E97E2BE9A /* AKAmplitudeEnvelopeAudioUnit.h */,
-				6843F8E304F9150E9378A8E21D544225 /* AKAmplitudeTrackerAudioUnit.h */,
-				E3C08A9C1CC4FE8790B7DA40F022CBFE /* AKAutoWahAudioUnit.h */,
-				30CB5A1EB7FADB089058072D6F8DBA56 /* AKBalancerAudioUnit.h */,
-				9CEC9AA81550770F1ED1FEE57EE5B847 /* AKBandPassButterworthFilterAudioUnit.h */,
-				076E8C7199F06D6549EC156115E3504E /* AKBandRejectButterworthFilterAudioUnit.h */,
-				0F500744153D0DB102C3FF34A013DC0C /* AKBitCrusherAudioUnit.h */,
-				37B9BB5223959F6BD2E294B4C8A07797 /* AKBoosterAudioUnit.h */,
-				1658A3C035A8FC8CAD30267AE76E349B /* AKChowningReverbAudioUnit.h */,
-				D557E26ADCDFB59EA2EC7367BEB2A2A9 /* AKClipperAudioUnit.h */,
-				60B0C0393AEEE7D453DDFF2DFBA3E586 /* AKCombFilterReverbAudioUnit.h */,
-				40BB4371CCA69FCD5AA6A658B3626346 /* AKConvolutionAudioUnit.h */,
-				316E8B37A54820F0E52D22466CC883FD /* AKCostelloReverbAudioUnit.h */,
-				1D39878E8F436E8003F568CEDA2B920C /* AKDCBlockAudioUnit.h */,
-				815B232DD9F77BDF2576E76F04C8C806 /* AKDripAudioUnit.h */,
-				5EDC8FAA32D0EAE416BD425E999A865E /* AKEqualizerFilterAudioUnit.h */,
-				FC3B88156700DC9034D376E772BB057E /* AKFlatFrequencyResponseReverbAudioUnit.h */,
-				C661894752D4453829DD5861FCFCDE75 /* AKFluteAudioUnit.h */,
-				BC2682C0FEDFE0935C734A33D7AD02FA /* AKFMOscillatorAudioUnit.h */,
-				503CB8566E70F89FB732471FB9F42425 /* AKFMOscillatorBankAudioUnit.h */,
-				7554019F701CB203F084EB5D272F8AF4 /* AKFormantFilterAudioUnit.h */,
-				33ED8BBA9D7F2B3D13013087B7E4B72E /* AKFrequencyTrackerAudioUnit.h */,
-				A4A143E9BE993495F50AFE01FD2B8F9F /* AKHighPassButterworthFilterAudioUnit.h */,
-				1AAF98B4B2AE09A4ADA639D12F8FC4F8 /* AKHighShelfParametricEqualizerFilterAudioUnit.h */,
-				66E328E548597AF17DF39994C6297884 /* AKKorgLowPassFilterAudioUnit.h */,
-				A3053CBF59932E5020A4921BC36973FB /* AKLowPassButterworthFilterAudioUnit.h */,
-				979AFBE2CDA452E9947292AD61DC2C97 /* AKLowShelfParametricEqualizerFilterAudioUnit.h */,
-				FB498894F56330B636EED35E9587F228 /* AKMandolinAudioUnit.h */,
-				22C0C312B7413B57FA29DA7472DE37A4 /* AKMetalBarAudioUnit.h */,
-				D38A582D4AA4859B7330E30B5D63D10E /* AKModalResonanceFilterAudioUnit.h */,
-				DF6499FF84046097159884382CF0A160 /* AKMoogLadderAudioUnit.h */,
-				F955A4C7351B13EE58BF6F80ABEF4162 /* AKMorphingOscillatorAudioUnit.h */,
-				A00DF351202F686F9E8833011AC04A8B /* AKMorphingOscillatorBankAudioUnit.h */,
-				0AC549CD3CCE831BA00EE53E2FEA518B /* AKOfflineRenderer.h */,
-				36756D59FD92B96C927EED6941793A23 /* AKOperationEffectAudioUnit.h */,
-				09A340CD443FE70897A07B022149DF77 /* AKOperationGeneratorAudioUnit.h */,
-				AC4F450C420462E902E07AA4595C631B /* AKOscillatorAudioUnit.h */,
-				1320C89B66DCF95561F6D3123B2678C8 /* AKOscillatorBankAudioUnit.h */,
-				E6AC1408C84494B1CD847BB393C75E64 /* AKPannerAudioUnit.h */,
-				DF67D862440E8412E1C48E1E1D8605FD /* AKPeakingParametricEqualizerFilterAudioUnit.h */,
-				86FF9FD323C0796F581DBD0D3EFC1CF0 /* AKPhaseDistortionOscillatorAudioUnit.h */,
-				F7D49E1438065B73F89178CDED9D6F04 /* AKPhaseDistortionOscillatorBankAudioUnit.h */,
-				612742FE87A6D9DD1721147662A304FE /* AKPhaseLockedVocoderAudioUnit.h */,
-				32F51836578EDF49DD027B06EC873282 /* AKPinkNoiseAudioUnit.h */,
-				036DC9414C4288C0943BE188D685618D /* AKPitchShifterAudioUnit.h */,
-				2A7984C5F5B5A25FBAE1ADA3C76A1D9B /* AKPluckedStringAudioUnit.h */,
-				7A216754C16BA71405CE93DCA2B4E9D9 /* AKPWMOscillatorAudioUnit.h */,
-				0492D3330B010ABA0FB51DBC176BE78F /* AKPWMOscillatorBankAudioUnit.h */,
-				CD6106A440D555646B53BD329EC0E9B8 /* AKResonantFilterAudioUnit.h */,
-				891D697B2AEDCAD564828A8EE7FC5C26 /* AKRolandTB303FilterAudioUnit.h */,
-				843255F322C3AEE06AD4C88B15646964 /* AKStringResonatorAudioUnit.h */,
-				DD03E1E04FF6E494906B30DA0854B77A /* AKTanhDistortionAudioUnit.h */,
-				930786274BE70C43CFE3697C0C84736E /* AKTesterAudioUnit.h */,
-				DAABC2BB3E3FAD12DE3BAA21C9A7A587 /* AKThreePoleLowpassFilterAudioUnit.h */,
-				7D79BE488CA2F95A8798887814C2EAE8 /* AKToneComplementFilterAudioUnit.h */,
-				57B129C979D7958941AEA1C9C56E6C56 /* AKToneFilterAudioUnit.h */,
-				68CD3A8EC1BDBAD738E2AFE8F60114B0 /* AKTremoloAudioUnit.h */,
-				7FB6E20E82E7D5D24981132191F3D22F /* AKVariableDelayAudioUnit.h */,
-				CF367FB34C04521A95970334D805780C /* AKWhiteNoiseAudioUnit.h */,
-				F23FD91FDCAF216DAF7E36062310F6F0 /* AudioKit.h */,
-				49E0E00E68B2A2ADCBC2A426C7E3FB61 /* AudioKit-Swift.h */,
-				3CF0802D3E7F85A0D9C3A9C39DF4BA26 /* EZAudio.h */,
-				3F84E6FB1509E4C28D9EC79F2FAD41F8 /* EZAudioDevice.h */,
-				6EAF31D2624B74B52FF5B0706646BB30 /* EZAudioDisplayLink.h */,
-				5BF1B596BB8355BF296F8DE9A54DC31B /* EZAudioFFT.h */,
-				3E77EDAD29BBFA6DF5CE43ED5EEAC4B2 /* EZAudioFile.h */,
-				ABD9390F3038F03F8566D402BCA356E1 /* EZAudioFloatConverter.h */,
-				C9E25A3FE9ECB94D2250A8C84756835B /* EZAudioFloatData.h */,
-				4A8C004B7AAFE7E549C354EA0A519867 /* EZAudioPlayer.h */,
-				AFA28053B65DA1A3394D30A0ADFBA9A8 /* EZAudioPlot.h */,
-				9930F78A5942100C8BABBCF7C36D0EC5 /* EZAudioPlotGL.h */,
-				1D472E61175300CD143267AAD2D6CC19 /* EZAudioUtilities.h */,
-				560267766CA3600EFF6C6979DDF2812C /* EZMicrophone.h */,
-				BC98449A55AF10656BD8556D28D3C4D7 /* EZOutput.h */,
-				2878E6D143D1D6B3281FC423A6866BF3 /* EZPlot.h */,
-				F9D03F777E6D2CC06B72FEDB46D46746 /* EZRecorder.h */,
-				2B0620B6E5CDE6D2C3EC6FFBD5D5DD85 /* TPCircularBuffer.h */,
-				964C4C5AF4254A46FA15E681E022DC57 /* Frameworks */,
+				0A6E62EF2C63A599E6CDEC7700BDA487 /* AKPickerView */,
+				04741833CEFEBC220CF8AFBC13143F1B /* AudioKit */,
+				CC7D97556D8F38E0D1CDBE0A3578DB58 /* BAFluidView */,
 			);
-			name = AudioKit;
-			path = AudioKit;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		754EF1F57B327CC320C45EF88D104151 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				845EE71EA858820007CCCE01A7F90855 /* AKPickerView.modulemap */,
+				8E40529FCD3BDFCE2085A55D4425B985 /* AKPickerView.xcconfig */,
+				C88F2EA4458E7372B8BDAC0C23D7D778 /* AKPickerView-dummy.m */,
+				514EFE341E75D0FCC2CF5BFC86EE6EB8 /* AKPickerView-prefix.pch */,
+				07B56B0C6A94654B7D1E4FA0C1A7EC24 /* AKPickerView-umbrella.h */,
+				3D1D9553FB4A6A921DAA877FC58F4439 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKPickerView";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8B6D968432DA454CBE7BE3761821A977 /* Frameworks */,
-				181E8B90201E47A6805F733C8F7D439B /* Pods */,
-				BE546FF944E64FD3D91BE23BDF0B0043 /* Products */,
+				97E811D73B8632F57466A1B09AAA4E66 /* Frameworks */,
+				708EBCEDF025C54D7A164A4E4E733BB8 /* Pods */,
+				88183EA5860A480440031956B868A9DE /* Products */,
 				E2667F82BF06F3256238DF1B0D035F26 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8B6D968432DA454CBE7BE3761821A977 /* Frameworks */ = {
+		88183EA5860A480440031956B868A9DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E85B3C8D405E38020BBD61786DF6A540 /* iOS */,
-				F6B40A53422DA946F51BDC9CC563B492 /* watchOS */,
+				523F863EC0E367A300E860B1B0062A42 /* AKPickerView.framework */,
+				EC4964891F317E7B1FBB85F40581B66B /* BAFluidView.framework */,
+				D83A189C5111A638D173CF62289CBB81 /* Pods_watchTune.framework */,
+				D741ADA4BC8E00CDC29464AC93A0C8E1 /* Pods_watchTune_WatchKit_App.framework */,
+				D96EF13F0237519428897757BA707B73 /* Pods_watchTune_WatchKit_Extension.framework */,
+				D46A32A8BAB79AB754CDE01ACBE72ABE /* Pods_watchTuneTests.framework */,
+				9819ABCB1B6E69FEE84896C23E600E85 /* Pods_watchTuneUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F8CA5C6CFF1C5DB56F9200BB864444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B06C2F29A06F453895573BAD0EBE800 /* AudioKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		964C4C5AF4254A46FA15E681E022DC57 /* Frameworks */ = {
+		97E811D73B8632F57466A1B09AAA4E66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E45238ED6298EC4DADE9A95DC6EE7B30 /* AudioKit.framework */,
+				510A8EC97565F460D008E9F57D5643EE /* iOS */,
+				D3EEB5D2056BB237B8E67A35A7D85E7F /* watchOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -457,19 +523,6 @@
 			path = "Target Support Files/Pods-watchTune";
 			sourceTree = "<group>";
 		};
-		BE546FF944E64FD3D91BE23BDF0B0043 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B8D187344CEC3FD33088227F6DC6CC15 /* BAFluidView.framework */,
-				768805953C3FD6BB19F2647C7B3350FC /* Pods_watchTune.framework */,
-				3A8E52AE5B77EA2413E25686968F03B8 /* Pods_watchTune_WatchKit_App.framework */,
-				64BC4903AC437F3B39EAD5198B8D52CD /* Pods_watchTune_WatchKit_Extension.framework */,
-				A0432870E51DF977435AEA69A2A8CFD9 /* Pods_watchTuneTests.framework */,
-				3360BA1F9263B4BBDFB8589F4042EED1 /* Pods_watchTuneUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C1A62144F42641E042A1BE62A7E2A19E /* Pods-watchTuneUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,18 +541,39 @@
 			path = "Target Support Files/Pods-watchTuneUITests";
 			sourceTree = "<group>";
 		};
-		E23BB88945E7CBD1589367D56DACF099 /* Support Files */ = {
+		C5FA628AA0E7BF37D2297E772A2A6772 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B69BDBD95BDB2346E7918C599B14D381 /* BAFluidView.modulemap */,
-				145EC393E6C4D0E4ED72B9E59F3DBBDB /* BAFluidView.xcconfig */,
-				2FFBE41E5EB3AD74BCC6D2BEA64923F5 /* BAFluidView-dummy.m */,
-				AEF23596C00AF0EB5C31AD3FD86297A5 /* BAFluidView-prefix.pch */,
-				0638D77B4AF77A40749400C1D9079FD0 /* BAFluidView-umbrella.h */,
-				2EBC4F1CAB5ADB087E438C3AE7DC0C4D /* Info.plist */,
+				F5E225BF204C8E8A3795EBE253337299 /* BAFluidView.modulemap */,
+				F1467DC799FE207B1D02F5815E5D8974 /* BAFluidView.xcconfig */,
+				7C36EB320DD89443913AA3F0322F694A /* BAFluidView-dummy.m */,
+				682F67AA5BED3E9B88E5DE60DF624FAE /* BAFluidView-prefix.pch */,
+				46BDE042837B1BF9158A35CD7DBFBCD7 /* BAFluidView-umbrella.h */,
+				695E5948ABF2E0CFA73FE46F3F8BA7E1 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BAFluidView";
+			sourceTree = "<group>";
+		};
+		CC7D97556D8F38E0D1CDBE0A3578DB58 /* BAFluidView */ = {
+			isa = PBXGroup;
+			children = (
+				42871374FF704BAFA69178F1C871C2BF /* BAFluidView.h */,
+				86BFD7660817B8652438BA0C5B504155 /* BAFluidView.m */,
+				3F5061BBA4F9F5CA5C3959E2B0205188 /* Constants.h */,
+				4239D71D9B970E6C7C7B5F11976E798E /* UIColor+ColorWithHex.h */,
+				49B6DA151567A9F275B85191141F1C34 /* UIColor+ColorWithHex.m */,
+				C5FA628AA0E7BF37D2297E772A2A6772 /* Support Files */,
+			);
+			path = BAFluidView;
+			sourceTree = "<group>";
+		};
+		D3EEB5D2056BB237B8E67A35A7D85E7F /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				D447DA61892748E7DC75168EF344A07A /* Foundation.framework */,
+			);
+			name = watchOS;
 			sourceTree = "<group>";
 		};
 		E2667F82BF06F3256238DF1B0D035F26 /* Targets Support Files */ = {
@@ -514,104 +588,79 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E85B3C8D405E38020BBD61786DF6A540 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D838EF91E8DF0B2D03DF4ED7D616C4CE /* Foundation.framework */,
-				541A61AF9C1ECF6331A31360330DBEEB /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F6B40A53422DA946F51BDC9CC563B492 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				9CF8DF5AB7960DE7DCE3233F996CCE54 /* Foundation.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		318674FBEE4759BCF313155487301613 /* Headers */ = {
+		1867017EFFF63A425A1C5E53226753F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6174D587559999EE4BC2A40E44C75201 /* BAFluidView-umbrella.h in Headers */,
-				90547E8E503D337F6616A937F0DE4B2C /* BAFluidView.h in Headers */,
-				54E451347BD118B850FDAD2E52580DC5 /* Constants.h in Headers */,
-				2FDD7C9D17D5202E3BBCF70853B9411A /* UIColor+ColorWithHex.h in Headers */,
+				C352C1A15AFFEA929318DAE6D7A9A3BE /* Pods-watchTune-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69AA0183410D29623D4A00B8C4A1F2FF /* Headers */ = {
+		57B3630A213CCF2E1915000132EFBBB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99F9D70A3481B14D418DAEB410BA4972 /* Pods-watchTune WatchKit App-umbrella.h in Headers */,
+				BED9B49DD5FFC3CA6128A05F90DFC8E3 /* BAFluidView-umbrella.h in Headers */,
+				2692C852C0FAED686CB39F2F2445D29C /* BAFluidView.h in Headers */,
+				E1BB0DCA064A2BEDDFC4322FFEDBEF16 /* Constants.h in Headers */,
+				4C4404DD5F2F8C5E6161AC302EA60CEC /* UIColor+ColorWithHex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8098C86BE68217B6532E722D1B9DDA5C /* Headers */ = {
+		652017A593BBF8FF6334DA26A896BA5C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BCC560F6EAABDA631B7FE820BA0A62 /* Pods-watchTune-umbrella.h in Headers */,
+				95CEE03DFD89AF11009548F9492567A7 /* Pods-watchTune WatchKit Extension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1A935352CB832CA88000E9C50596D13 /* Headers */ = {
+		8515A02D138C506F30D7DA01A50B3F2F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				691BFBCAA1F4BCDA71A2D23385D9D2C3 /* Pods-watchTuneTests-umbrella.h in Headers */,
+				92ED9AFA03689A6007F40A4184CF6AE4 /* Pods-watchTune WatchKit App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9B954308D5FE549FCC6715E7DA46DBA /* Headers */ = {
+		8F44A8F8012049D2A44BD500B58E5D35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A84EF6FC66812DB1C266B1CA76A7BB /* Pods-watchTune WatchKit Extension-umbrella.h in Headers */,
+				A088FA1E132AA443FDB699A0770CCA11 /* Pods-watchTuneUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3447FD3662008CBFD78671438AA8B27 /* Headers */ = {
+		A95927F5E738E316051FFCC3AD4C14AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D77039E9C4FB361706D1E6A1E4E44B2 /* Pods-watchTuneUITests-umbrella.h in Headers */,
+				0F680B8F958E983E44419660D5CEF96B /* Pods-watchTuneTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD335DEB578D3A6C8C0B28A1784DE510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AE897FCF8A49C3E7C400432EF3BD09 /* AKPickerView-umbrella.h in Headers */,
+				431ED76186EC8EE6627981E587B34CE7 /* AKPickerView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41804C3F7B422752ED4744DAA6DB60C1 /* BAFluidView */ = {
+		641AC56E5A777326C2EA7FE601546E8C /* Pods-watchTune WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCD072AE49AFD760AB8CA9EE43B16B6B /* Build configuration list for PBXNativeTarget "BAFluidView" */;
+			buildConfigurationList = D5B8E49CB1201B552F6FEE9397A9E9E9 /* Build configuration list for PBXNativeTarget "Pods-watchTune WatchKit App" */;
 			buildPhases = (
-				D672B1F28A95DC11554D354A638D7BFD /* Sources */,
-				EA869BB1684714C23890DACCA55E435F /* Frameworks */,
-				318674FBEE4759BCF313155487301613 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BAFluidView;
-			productName = BAFluidView;
-			productReference = B8D187344CEC3FD33088227F6DC6CC15 /* BAFluidView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7C715AA879062D6AAB83CF6F4D54C216 /* Pods-watchTune WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9A20D7D6E3D63F7ABDE0A60708B4589 /* Build configuration list for PBXNativeTarget "Pods-watchTune WatchKit App" */;
-			buildPhases = (
-				36AB390E586852B12417A47D20EEDC40 /* Sources */,
-				E1C362B00565B7FBE98494F832771A9F /* Frameworks */,
-				69AA0183410D29623D4A00B8C4A1F2FF /* Headers */,
+				FC761F607769CC9D6DA20EFA3C449BBE /* Sources */,
+				B4C1E4D5E4EB7CC6AFB8949137005DBD /* Frameworks */,
+				8515A02D138C506F30D7DA01A50B3F2F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -619,51 +668,16 @@
 			);
 			name = "Pods-watchTune WatchKit App";
 			productName = "Pods-watchTune WatchKit App";
-			productReference = 3A8E52AE5B77EA2413E25686968F03B8 /* Pods_watchTune_WatchKit_App.framework */;
+			productReference = D741ADA4BC8E00CDC29464AC93A0C8E1 /* Pods_watchTune_WatchKit_App.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9769313D5BA12691EA028BFBA755D4C3 /* Pods-watchTune */ = {
+		819897CA88BE60BEF997F7BA5F0FED71 /* Pods-watchTuneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F0DF98184A8A2E678CFA19480CC2999 /* Build configuration list for PBXNativeTarget "Pods-watchTune" */;
+			buildConfigurationList = 3B7DC75D8206CE86200DCBAAD591EDC9 /* Build configuration list for PBXNativeTarget "Pods-watchTuneTests" */;
 			buildPhases = (
-				8D612E42E93A81168B556B19015A3F03 /* Sources */,
-				C3A31D60250DC49A2BA7226AA26CBEF9 /* Frameworks */,
-				8098C86BE68217B6532E722D1B9DDA5C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C95B5978D3599A1FE473687788B7B196 /* PBXTargetDependency */,
-			);
-			name = "Pods-watchTune";
-			productName = "Pods-watchTune";
-			productReference = 768805953C3FD6BB19F2647C7B3350FC /* Pods_watchTune.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CC838EE96A81DA80422DA22E7B196CBE /* Pods-watchTuneUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B8EABA353D48F2F20395F4DF60E8DF6E /* Build configuration list for PBXNativeTarget "Pods-watchTuneUITests" */;
-			buildPhases = (
-				0E5646FA64C1B1EA315321592D7CBF3A /* Sources */,
-				EF4145B7CCF9E3740E2DE94B9050A60B /* Frameworks */,
-				F3447FD3662008CBFD78671438AA8B27 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-watchTuneUITests";
-			productName = "Pods-watchTuneUITests";
-			productReference = 3360BA1F9263B4BBDFB8589F4042EED1 /* Pods_watchTuneUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D4038CF711597B24650D6B2D8BE1E160 /* Pods-watchTuneTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D8E751584F555A21B9F6C34C2BD577D /* Build configuration list for PBXNativeTarget "Pods-watchTuneTests" */;
-			buildPhases = (
-				07E9148A09A85DB889205B8EBF259ED1 /* Sources */,
-				B3DD98C7809B3F5144BC749440A948B8 /* Frameworks */,
-				B1A935352CB832CA88000E9C50596D13 /* Headers */,
+				27C48D9C9C5F2331C3AE2C2E0C6BFC58 /* Sources */,
+				400FAF6717D8BD1EEE3D9B116A5EB638 /* Frameworks */,
+				A95927F5E738E316051FFCC3AD4C14AB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -671,16 +685,52 @@
 			);
 			name = "Pods-watchTuneTests";
 			productName = "Pods-watchTuneTests";
-			productReference = A0432870E51DF977435AEA69A2A8CFD9 /* Pods_watchTuneTests.framework */;
+			productReference = D46A32A8BAB79AB754CDE01ACBE72ABE /* Pods_watchTuneTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FBE7C165586C5872F708A2DAD1CCBC3E /* Pods-watchTune WatchKit Extension */ = {
+		E9436BFB5A8CC69A656A84504A1871F3 /* AKPickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BCEF86F08B1E9BEF8E538359488F8D1 /* Build configuration list for PBXNativeTarget "Pods-watchTune WatchKit Extension" */;
+			buildConfigurationList = 08FC914CC4F615AD54F4083170276472 /* Build configuration list for PBXNativeTarget "AKPickerView" */;
 			buildPhases = (
-				B0D784F40D84EA1AEF19F7238B81086A /* Sources */,
-				3370BFDC2B3E8F8D81A4B329D13BC260 /* Frameworks */,
-				C9B954308D5FE549FCC6715E7DA46DBA /* Headers */,
+				070F9EF7112AC6FB474E2C0B589F38EE /* Sources */,
+				E51901E73CC2EA0FDE383866A8BB20AA /* Frameworks */,
+				DD335DEB578D3A6C8C0B28A1784DE510 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKPickerView;
+			productName = AKPickerView;
+			productReference = 523F863EC0E367A300E860B1B0062A42 /* AKPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9AA5475C77A520EFBA6AEAB4DE166C2 /* Pods-watchTune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39510C2B382CFA7F1C66D3CB3F2270D /* Build configuration list for PBXNativeTarget "Pods-watchTune" */;
+			buildPhases = (
+				EF53195ECD2800ECACB0166DE15250ED /* Sources */,
+				3428DC24B08325997D4847A658D36C90 /* Frameworks */,
+				1867017EFFF63A425A1C5E53226753F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2368724A37E98A31A6203DF856BD72D1 /* PBXTargetDependency */,
+				9F90D82AC5C6EDEDB55D10066D385EBF /* PBXTargetDependency */,
+			);
+			name = "Pods-watchTune";
+			productName = "Pods-watchTune";
+			productReference = D83A189C5111A638D173CF62289CBB81 /* Pods_watchTune.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB3A75275FD1CD6B31FEF2D54EE30502 /* Pods-watchTune WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442433B98F650AD1A2E4FDEB2270FD7D /* Build configuration list for PBXNativeTarget "Pods-watchTune WatchKit Extension" */;
+			buildPhases = (
+				EE16034536D804DEDF17ECE07D3B49FD /* Sources */,
+				26DF11D0D3B775CD6A4F7218A4F9D9A3 /* Frameworks */,
+				652017A593BBF8FF6334DA26A896BA5C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -688,7 +738,41 @@
 			);
 			name = "Pods-watchTune WatchKit Extension";
 			productName = "Pods-watchTune WatchKit Extension";
-			productReference = 64BC4903AC437F3B39EAD5198B8D52CD /* Pods_watchTune_WatchKit_Extension.framework */;
+			productReference = D96EF13F0237519428897757BA707B73 /* Pods_watchTune_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3680E6EB9D549C6DE89A505A951E4CE /* Pods-watchTuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A22993BE4B630725FC66763FE5CB96 /* Build configuration list for PBXNativeTarget "Pods-watchTuneUITests" */;
+			buildPhases = (
+				0B854F1B0B62410EA1868898B7D410C1 /* Sources */,
+				6DEC6E3C872B1D3634E18E5ECED5E7F1 /* Frameworks */,
+				8F44A8F8012049D2A44BD500B58E5D35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-watchTuneUITests";
+			productName = "Pods-watchTuneUITests";
+			productReference = 9819ABCB1B6E69FEE84896C23E600E85 /* Pods_watchTuneUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA96E1C8B668A4AA298CA4753042E43B /* BAFluidView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAD9DF96E5C05EF22302DFE793A4735 /* Build configuration list for PBXNativeTarget "BAFluidView" */;
+			buildPhases = (
+				AF818696F7C611151662362C151157E1 /* Sources */,
+				B741F364DAC28BA7928AF71AFAFA32AD /* Frameworks */,
+				57B3630A213CCF2E1915000132EFBBB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BAFluidView;
+			productName = BAFluidView;
+			productReference = EC4964891F317E7B1FBB85F40581B66B /* BAFluidView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -708,91 +792,104 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BE546FF944E64FD3D91BE23BDF0B0043 /* Products */;
+			productRefGroup = 88183EA5860A480440031956B868A9DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41804C3F7B422752ED4744DAA6DB60C1 /* BAFluidView */,
-				9769313D5BA12691EA028BFBA755D4C3 /* Pods-watchTune */,
-				7C715AA879062D6AAB83CF6F4D54C216 /* Pods-watchTune WatchKit App */,
-				FBE7C165586C5872F708A2DAD1CCBC3E /* Pods-watchTune WatchKit Extension */,
-				D4038CF711597B24650D6B2D8BE1E160 /* Pods-watchTuneTests */,
-				CC838EE96A81DA80422DA22E7B196CBE /* Pods-watchTuneUITests */,
+				E9436BFB5A8CC69A656A84504A1871F3 /* AKPickerView */,
+				FA96E1C8B668A4AA298CA4753042E43B /* BAFluidView */,
+				E9AA5475C77A520EFBA6AEAB4DE166C2 /* Pods-watchTune */,
+				641AC56E5A777326C2EA7FE601546E8C /* Pods-watchTune WatchKit App */,
+				EB3A75275FD1CD6B31FEF2D54EE30502 /* Pods-watchTune WatchKit Extension */,
+				819897CA88BE60BEF997F7BA5F0FED71 /* Pods-watchTuneTests */,
+				F3680E6EB9D549C6DE89A505A951E4CE /* Pods-watchTuneUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07E9148A09A85DB889205B8EBF259ED1 /* Sources */ = {
+		070F9EF7112AC6FB474E2C0B589F38EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE49DE5E498E596D316B2A2D389DBDA /* Pods-watchTuneTests-dummy.m in Sources */,
+				CEAD0E70937074261CC87DBE055954E8 /* AKPickerView-dummy.m in Sources */,
+				04951AC33F73B9CC92FAA16092FF3B15 /* AKPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E5646FA64C1B1EA315321592D7CBF3A /* Sources */ = {
+		0B854F1B0B62410EA1868898B7D410C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D12FB0EEA425BAFC58B445D9B690520 /* Pods-watchTuneUITests-dummy.m in Sources */,
+				68B29673F55C496D52ED41BE32A2963C /* Pods-watchTuneUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36AB390E586852B12417A47D20EEDC40 /* Sources */ = {
+		27C48D9C9C5F2331C3AE2C2E0C6BFC58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE9598312D4445E4C20A8C2138E4943 /* Pods-watchTune WatchKit App-dummy.m in Sources */,
+				0379B3E6CB86F195E21C08A204A061C4 /* Pods-watchTuneTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D612E42E93A81168B556B19015A3F03 /* Sources */ = {
+		AF818696F7C611151662362C151157E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194E5319FC7AD48DD119FB8A613AD4A4 /* Pods-watchTune-dummy.m in Sources */,
+				4008D08BF45E74608C4F66F15A560363 /* BAFluidView-dummy.m in Sources */,
+				E16AC59AABC4FF37CF07B815AC3A878D /* BAFluidView.m in Sources */,
+				43751A3C0316E006243DFA4176181E95 /* UIColor+ColorWithHex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0D784F40D84EA1AEF19F7238B81086A /* Sources */ = {
+		EE16034536D804DEDF17ECE07D3B49FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D987DE4C3FB9223B95E0CEB6DD783E /* Pods-watchTune WatchKit Extension-dummy.m in Sources */,
+				48737DB4C67CD2E4CB4C2BE2F6124D19 /* Pods-watchTune WatchKit Extension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D672B1F28A95DC11554D354A638D7BFD /* Sources */ = {
+		EF53195ECD2800ECACB0166DE15250ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA4BADBAC5F89830F40EDDCBCE1C69F1 /* BAFluidView-dummy.m in Sources */,
-				71DB65060FBFE1F0F2FA4C8332135FC4 /* BAFluidView.m in Sources */,
-				7D3D710ED3808909C9D67DC79D40DC5A /* UIColor+ColorWithHex.m in Sources */,
+				93C9BC496FE603AD8FC042B365577DBC /* Pods-watchTune-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC761F607769CC9D6DA20EFA3C449BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E704E0C70D46947BAF07F4000E7E5F0 /* Pods-watchTune WatchKit App-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C95B5978D3599A1FE473687788B7B196 /* PBXTargetDependency */ = {
+		2368724A37E98A31A6203DF856BD72D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKPickerView;
+			target = E9436BFB5A8CC69A656A84504A1871F3 /* AKPickerView */;
+			targetProxy = 414C93071D8BD2E39848D2D8500AEDC2 /* PBXContainerItemProxy */;
+		};
+		9F90D82AC5C6EDEDB55D10066D385EBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BAFluidView;
-			target = 41804C3F7B422752ED4744DAA6DB60C1 /* BAFluidView */;
-			targetProxy = E736D9AA7E0A5C02B4F3C55215C12491 /* PBXContainerItemProxy */;
+			target = FA96E1C8B668A4AA298CA4753042E43B /* BAFluidView */;
+			targetProxy = 3F59D6240F2F7C2B0BB867E96AFA4D82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0526217C65C14E5C18AC7AC4946A7AD4 /* Release */ = {
+		11B0A5EB02438BAFAD63DF141E76CBF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D15B8DAF369E0AF1E2B2796469229CCC /* Pods-watchTune WatchKit Extension.release.xcconfig */;
+			baseConfigurationReference = F1467DC799FE207B1D02F5815E5D8974 /* BAFluidView.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -801,17 +898,46 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-watchTune WatchKit Extension/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BAFluidView/BAFluidView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BAFluidView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BAFluidView/BAFluidView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BAFluidView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C57CAF8B808D5171DCB4188E72FDCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC911199C80A121097AD29980E3A12D8 /* Pods-watchTune WatchKit App.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-watchTune WatchKit App/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watchTune WatchKit Extension/Pods-watchTune WatchKit Extension.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-watchTune WatchKit App/Pods-watchTune WatchKit App.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_watchTune_WatchKit_Extension;
+				PRODUCT_NAME = Pods_watchTune_WatchKit_App;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -821,13 +947,11 @@
 			};
 			name = Release;
 		};
-		2FCB7B425EC62290ADFB977085B2C83C /* Release */ = {
+		2182344744F6762709FA258614853DBE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3C52ADD7BEED2C64D2D8C2C82FF2B86 /* Pods-watchTune.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -856,7 +980,7 @@
 			};
 			name = Release;
 		};
-		37603CD2737043CE0D7D8D0A87853C28 /* Debug */ = {
+		24D4597C7B4CDD4242ED6ABA51232256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -874,7 +998,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -894,132 +1017,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Debug;
 		};
-		3B1A61A5EBEDB4BAC23AD5DA84B50437 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Release;
-		};
-		491B3E1382369EAAC5987F1A3D200F4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB4689122177B6976DF38B987D8B5289 /* Pods-watchTuneTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-watchTuneTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watchTuneTests/Pods-watchTuneTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_watchTuneTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D5EFB54C16283AD0A11F0EA341B5118 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBE6B0BCDA42991E1C3A8C8A35B00B7A /* Pods-watchTuneUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-watchTuneUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watchTuneUITests/Pods-watchTuneUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_watchTuneUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		63BF492799583F8085B847607AC61501 /* Debug */ = {
+		267158C8D6613484224E4680595DEA7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F83CE4B614A19EE1B683D4E7ED596975 /* Pods-watchTune WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1048,14 +1056,143 @@
 			};
 			name = Debug;
 		};
-		6E20F6DA791FE8E5790D083D482FA7DB /* Debug */ = {
+		27948D8C752CB908E9D036102A073ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4689122177B6976DF38B987D8B5289 /* Pods-watchTuneTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-watchTuneTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watchTuneTests/Pods-watchTuneTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_watchTuneTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		281F8B83FFD776B57E30041C45D3A9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE6B0BCDA42991E1C3A8C8A35B00B7A /* Pods-watchTuneUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-watchTuneUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watchTuneUITests/Pods-watchTuneUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_watchTuneUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D93D6039B378B2000E34190C4279828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544ADA28CF5EF4FF9945C9963D515DED /* Pods-watchTuneTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-watchTuneTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watchTuneTests/Pods-watchTuneTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_watchTuneTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65A198DA74056BCC886DF0FF06FCCEE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D768EAD6E0FFC2D08E88B701B536734B /* Pods-watchTuneUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-watchTuneUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watchTuneUITests/Pods-watchTuneUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_watchTuneUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E21D14C601D5F1EAAC3CECA53554631 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2ED10EA03562786BB2CF1023E457B142 /* Pods-watchTune WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1084,14 +1221,50 @@
 			};
 			name = Debug;
 		};
-		87617D4654513AFD985BE7F44C02CC11 /* Release */ = {
+		838EEEC42F2BF1E5B560AAA8A31924BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC911199C80A121097AD29980E3A12D8 /* Pods-watchTune WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		9CDD687559F434ECCD3E1B683D91C8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15B8DAF369E0AF1E2B2796469229CCC /* Pods-watchTune WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1100,17 +1273,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-watchTune WatchKit App/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-watchTune WatchKit Extension/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watchTune WatchKit App/Pods-watchTune WatchKit App.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-watchTune WatchKit Extension/Pods-watchTune WatchKit Extension.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_watchTune_WatchKit_App;
+				PRODUCT_NAME = Pods_watchTune_WatchKit_Extension;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1120,13 +1293,11 @@
 			};
 			name = Release;
 		};
-		8BF1977BF4A89BE2D78F1C3545852C3E /* Release */ = {
+		D4B5994AC9D645C286AB8119E97CF670 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 145EC393E6C4D0E4ED72B9E59F3DBBDB /* BAFluidView.xcconfig */;
+			baseConfigurationReference = 8E40529FCD3BDFCE2085A55D4425B985 /* AKPickerView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1135,100 +1306,56 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BAFluidView/BAFluidView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BAFluidView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AKPickerView/AKPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKPickerView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BAFluidView/BAFluidView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/AKPickerView/AKPickerView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BAFluidView;
+				PRODUCT_NAME = AKPickerView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8C5E41695D4D03C15DA2774497AD68F3 /* Release */ = {
+		D74D45AED0ED79A9D71AF407223AA587 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 544ADA28CF5EF4FF9945C9963D515DED /* Pods-watchTuneTests.release.xcconfig */;
+			baseConfigurationReference = 8E40529FCD3BDFCE2085A55D4425B985 /* AKPickerView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-watchTuneTests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AKPickerView/AKPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKPickerView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watchTuneTests/Pods-watchTuneTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_watchTuneTests;
+				MODULEMAP_FILE = "Target Support Files/AKPickerView/AKPickerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AKPickerView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		96304AF06CCD9A4866F576AE6B744B6D /* Release */ = {
+		F835165434F1754C87B6ADDD3B85F73C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D768EAD6E0FFC2D08E88B701B536734B /* Pods-watchTuneUITests.release.xcconfig */;
+			baseConfigurationReference = F1467DC799FE207B1D02F5815E5D8974 /* BAFluidView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-watchTuneUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-watchTuneUITests/Pods-watchTuneUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_watchTuneUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		97A9732FDA2CCE1C4AA78C1BC938CADB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 145EC393E6C4D0E4ED72B9E59F3DBBDB /* BAFluidView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1247,20 +1374,17 @@
 				PRODUCT_NAME = BAFluidView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D7D13EE999D397ED3E8D7613B374AAA9 /* Debug */ = {
+		FD800836BF7D18D2414A73B8A274B841 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D43C02AE10D051F63B815211B8A0C9A /* Pods-watchTune.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1292,20 +1416,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D8E751584F555A21B9F6C34C2BD577D /* Build configuration list for PBXNativeTarget "Pods-watchTuneTests" */ = {
+		08FC914CC4F615AD54F4083170276472 /* Build configuration list for PBXNativeTarget "AKPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				491B3E1382369EAAC5987F1A3D200F4C /* Debug */,
-				8C5E41695D4D03C15DA2774497AD68F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2BCEF86F08B1E9BEF8E538359488F8D1 /* Build configuration list for PBXNativeTarget "Pods-watchTune WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E20F6DA791FE8E5790D083D482FA7DB /* Debug */,
-				0526217C65C14E5C18AC7AC4946A7AD4 /* Release */,
+				D74D45AED0ED79A9D71AF407223AA587 /* Debug */,
+				D4B5994AC9D645C286AB8119E97CF670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1313,44 +1428,62 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37603CD2737043CE0D7D8D0A87853C28 /* Debug */,
-				3B1A61A5EBEDB4BAC23AD5DA84B50437 /* Release */,
+				24D4597C7B4CDD4242ED6ABA51232256 /* Debug */,
+				838EEEC42F2BF1E5B560AAA8A31924BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F0DF98184A8A2E678CFA19480CC2999 /* Build configuration list for PBXNativeTarget "Pods-watchTune" */ = {
+		3B7DC75D8206CE86200DCBAAD591EDC9 /* Build configuration list for PBXNativeTarget "Pods-watchTuneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7D13EE999D397ED3E8D7613B374AAA9 /* Debug */,
-				2FCB7B425EC62290ADFB977085B2C83C /* Release */,
+				27948D8C752CB908E9D036102A073ECB /* Debug */,
+				5D93D6039B378B2000E34190C4279828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8EABA353D48F2F20395F4DF60E8DF6E /* Build configuration list for PBXNativeTarget "Pods-watchTuneUITests" */ = {
+		442433B98F650AD1A2E4FDEB2270FD7D /* Build configuration list for PBXNativeTarget "Pods-watchTune WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D5EFB54C16283AD0A11F0EA341B5118 /* Debug */,
-				96304AF06CCD9A4866F576AE6B744B6D /* Release */,
+				6E21D14C601D5F1EAAC3CECA53554631 /* Debug */,
+				9CDD687559F434ECCD3E1B683D91C8DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCD072AE49AFD760AB8CA9EE43B16B6B /* Build configuration list for PBXNativeTarget "BAFluidView" */ = {
+		8BAD9DF96E5C05EF22302DFE793A4735 /* Build configuration list for PBXNativeTarget "BAFluidView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97A9732FDA2CCE1C4AA78C1BC938CADB /* Debug */,
-				8BF1977BF4A89BE2D78F1C3545852C3E /* Release */,
+				F835165434F1754C87B6ADDD3B85F73C /* Debug */,
+				11B0A5EB02438BAFAD63DF141E76CBF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9A20D7D6E3D63F7ABDE0A60708B4589 /* Build configuration list for PBXNativeTarget "Pods-watchTune WatchKit App" */ = {
+		C5A22993BE4B630725FC66763FE5CB96 /* Build configuration list for PBXNativeTarget "Pods-watchTuneUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63BF492799583F8085B847607AC61501 /* Debug */,
-				87617D4654513AFD985BE7F44C02CC11 /* Release */,
+				281F8B83FFD776B57E30041C45D3A9D9 /* Debug */,
+				65A198DA74056BCC886DF0FF06FCCEE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B8E49CB1201B552F6FEE9397A9E9E9 /* Build configuration list for PBXNativeTarget "Pods-watchTune WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267158C8D6613484224E4680595DEA7D /* Debug */,
+				1C57CAF8B808D5171DCB4188E72FDCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39510C2B382CFA7F1C66D3CB3F2270D /* Build configuration list for PBXNativeTarget "Pods-watchTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD800836BF7D18D2414A73B8A274B841 /* Debug */,
+				2182344744F6762709FA258614853DBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

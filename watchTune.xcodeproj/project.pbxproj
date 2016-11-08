@@ -27,6 +27,8 @@
 		2C04E600D0AF1F88A5F6FDAE /* Pods_watchTune_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9CC7DB2809FA3DC383EB3F /* Pods_watchTune_WatchKit_Extension.framework */; };
 		346E90AEFA1E130CCD9DCFCD /* Pods_watchTune_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B908D8E533047B4151A054F4 /* Pods_watchTune_WatchKit_App.framework */; };
 		49048C7E76FDF917B593990E /* Pods_watchTuneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DB7C649CBFA856376337AD /* Pods_watchTuneUITests.framework */; };
+		DA6ADC0E1DD1F7DB008A9F1F /* CircleContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6ADC0D1DD1F7DB008A9F1F /* CircleContainerViewController.swift */; };
+		DAEAC9D81DD20C0E00E63A2F /* PickerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAC9D71DD20C0E00E63A2F /* PickerContainerViewController.swift */; };
 		F7DE32DEE8B8164F29A75AC7 /* Pods_watchTune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4355626AD859636F3A4EADC /* Pods_watchTune.framework */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +127,8 @@
 		A0EE0DCC8EAA0C489131DB3F /* Pods-watchTuneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTuneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-watchTuneUITests/Pods-watchTuneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ACDBAEA8A1B53CBDE67F52BF /* Pods-watchTune WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTune WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-watchTune WatchKit App/Pods-watchTune WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		B908D8E533047B4151A054F4 /* Pods_watchTune_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6ADC0D1DD1F7DB008A9F1F /* CircleContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleContainerViewController.swift; sourceTree = "<group>"; };
+		DAEAC9D71DD20C0E00E63A2F /* PickerContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerContainerViewController.swift; sourceTree = "<group>"; };
 		ED0B35799E6EF823FEE7F407 /* Pods_watchTuneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTuneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4355626AD859636F3A4EADC /* Pods_watchTune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -209,6 +213,8 @@
 				10EC75891DD0C5A500729151 /* Assets.xcassets */,
 				10EC758B1DD0C5A500729151 /* LaunchScreen.storyboard */,
 				10EC758E1DD0C5A500729151 /* Info.plist */,
+				DA6ADC0D1DD1F7DB008A9F1F /* CircleContainerViewController.swift */,
+				DAEAC9D71DD20C0E00E63A2F /* PickerContainerViewController.swift */,
 			);
 			path = watchTune;
 			sourceTree = "<group>";
@@ -410,7 +416,6 @@
 				TargetAttributes = {
 					10EC757E1DD0C5A500729151 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 93ZH5ZQA23;
 						ProvisioningStyle = Automatic;
 					};
 					10EC75921DD0C5A500729151 = {
@@ -531,7 +536,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		3DD3283763E4756C8CA2092D /* [CP] Copy Pods Resources */ = {
@@ -621,7 +626,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9C9463143C01DE430165CD34 /* [CP] Copy Pods Resources */ = {
@@ -651,7 +656,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A52CCDEC9FA7F2BDCF91A4E2 /* [CP] Copy Pods Resources */ = {
@@ -681,7 +686,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D875F2312FE194AE9DED32CA /* [CP] Embed Pods Frameworks */ = {
@@ -711,7 +716,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -722,7 +727,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10EC75851DD0C5A500729151 /* ViewController.swift in Sources */,
+				DAEAC9D81DD20C0E00E63A2F /* PickerContainerViewController.swift in Sources */,
 				10EC75831DD0C5A500729151 /* AppDelegate.swift in Sources */,
+				DA6ADC0E1DD1F7DB008A9F1F /* CircleContainerViewController.swift in Sources */,
 				10CAA5A21DD13B20008A9DFB /* MusicUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -978,7 +985,7 @@
 			baseConfigurationReference = 4B49E4007803925758F8DA88 /* Pods-watchTune.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 93ZH5ZQA23;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = watchTune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watchTune;
@@ -992,7 +999,7 @@
 			baseConfigurationReference = 948F21A7C06606A599100A71 /* Pods-watchTune.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 93ZH5ZQA23;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = watchTune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watchTune;
