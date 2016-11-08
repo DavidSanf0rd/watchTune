@@ -12,7 +12,9 @@ struct MusicUtilities {
     static let noteFrequencies = [16.35,17.32,18.35,19.45,20.6,21.83,23.12,24.5,25.96,27.5,29.14,30.87]//oitava 0
     static let noteNames = ["C", "C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"]
     
-    static func detectPitch(frequencyValue:Float) -> (noteName:String,octave:String){
+    
+    
+    static func detectPitch(frequencyValue:Float) -> (noteName:String,octave:Int,noteFrequency:Float){
         var frequency = frequencyValue
         while (frequency > Float(noteFrequencies[noteFrequencies.count-1])) {
             frequency = frequency / 2.0
@@ -33,7 +35,24 @@ struct MusicUtilities {
         }
         
         let octave = Int(log2f(frequencyValue / frequency))
+        return ("\(noteNames[index])",octave,Float(noteFrequencies[index])*(powf(2.0,Float(octave))))
+    }
+    
+    static func noteDiference(firstFrequency:Float,secondFrequency:Float)->(frequencyDiference:Float,octaveDiference:Int){
         
-        return ("\(noteNames[index])","\(octave)")
+        let frequencyA = self.detectPitch(frequencyValue: firstFrequency)
+        let frequencyB = self.detectPitch(frequencyValue: secondFrequency)
+        
+        return (frequencyA.noteFrequency-frequencyB.noteFrequency,frequencyA.octave-frequencyB.octave)
+    }
+    
+    static func getFrequencyFor(noteSymbol:String,octave:String) -> Float{
+        
+        for i in 0..<noteNames.count {
+            if noteSymbol == noteNames[i] {
+                return Float(noteFrequencies[i]) * powf(2,Float(octave)!)
+            }
+        }
+        return 0.0
     }
 }

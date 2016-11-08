@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblNote: UILabel!
     
     var mic: AKMicrophone!
+    var oscillator = AKOscillator()
     var tracker: AKFrequencyTracker!
     var silence: AKBooster!
     
@@ -38,10 +39,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func updateUI() {
+    func updateUI(){
+        
         if tracker.amplitude > 0.1 {
            let note = MusicUtilities.detectPitch(frequencyValue: Float(tracker.frequency))
-           lblNote.text = "\(note.noteName)\(note.octave)"
+           lblNote.text = "\(note.noteName)\(note.octave) frequency:\(note.noteFrequency)"
+           
+           print(MusicUtilities.noteDiference(firstFrequency: MusicUtilities.getFrequencyFor(noteSymbol:"C", octave:"2"), secondFrequency: Float(tracker.frequency)))
         }
     }
 }
