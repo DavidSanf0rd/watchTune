@@ -12,13 +12,21 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
     
-    
-    @IBOutlet var lblNote: WKInterfaceLabel!
+    @IBOutlet var picker: WKInterfacePicker!
+    let noteNames = ["C", "C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"]
+    var currentItem = "C"
    
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
+        let pickerItems : [WKPickerItem] = noteNames.map{
+            let pickerItem = WKPickerItem()
+            pickerItem.title = $0
+            return pickerItem
+        }
+        
+        picker.setItems(pickerItems)
         // Configure interface objects here.
     }
     
@@ -33,5 +41,13 @@ class InterfaceController: WKInterfaceController {
     }
 
     
+    
+    @IBAction func changedItem(_ value: Int) {
+        currentItem = noteNames[value]
+    }
+    
+    @IBAction func beginBtn() {
+        self.presentController(withName: "TuneView", context: currentItem)
+    }
     
 }

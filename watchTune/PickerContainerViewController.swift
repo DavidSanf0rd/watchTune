@@ -14,22 +14,14 @@ class PickerContainerViewController: UIViewController, AKPickerViewDelegate, AKP
     let noteNames = ["C", "C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"]
     
     var pickerView : AKPickerView!
+    public var lastSelectedItem : UInt = 0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.pickerView = AKPickerView.init(frame: self.view.frame)
         self.pickerView.delegate  = self
         self.pickerView.dataSource = self
-        
-        
-        
-        let dragGestureRight = UISwipeGestureRecognizer(target: self, action: Selector(("respondToSwipe:")))
-        let dragGestureLeft = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipe))
-        dragGestureLeft.direction = .left
-        dragGestureRight.direction = .right
-        
-        self.pickerView.addGestureRecognizer(dragGestureRight)
-        self.pickerView.addGestureRecognizer(dragGestureLeft)
         
         self.view.addSubview(self.pickerView)
         // Do any additional setup after loading the view.
@@ -52,21 +44,10 @@ class PickerContainerViewController: UIViewController, AKPickerViewDelegate, AKP
         self.pickerView.interitemSpacing = 20.0
         self.pickerView.font = UIFont(name: "Avenir Next", size: 40)
         self.pickerView.highlightedFont = UIFont(name: "Avenir Next", size: 40)
-        self.pickerView.highlightedTextColor = UIColor.red
+        self.pickerView.highlightedTextColor = UIColor.white
         self.pickerView.fisheyeFactor = 0.001
         
         self.pickerView.reloadData()
-    }
-    
-    func respondToSwipe(gesture : UISwipeGestureRecognizer){
-        if gesture.state == .began{
-            self.pickerView.textColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.02)
-            self.pickerView.reloadData()
-        }
-        if gesture.state == .ended{
-            self.pickerView.textColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0)
-            self.pickerView.reloadData()
-        }
     }
     
     func numberOfItems(in pickerView: AKPickerView!) -> UInt {
@@ -77,9 +58,21 @@ class PickerContainerViewController: UIViewController, AKPickerViewDelegate, AKP
         return noteNames[item]
     }
     
+    func pickerView(_ pickerView: AKPickerView!, didSelectItem item: Int) {
+        self.lastSelectedItem = UInt(item)
+    }
     
     
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        self.pickerView.textColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.08)
+        self.pickerView.reloadData()
+    }
     
+    
+    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+        self.pickerView.textColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0)
+        self.pickerView.reloadData()
+    }
     
     /*
     // MARK: - Navigation

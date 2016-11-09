@@ -17,10 +17,7 @@ class CircleContainerViewController: UIViewController {
     }
 
     override func viewDidLayoutSubviews() {
-        for x in 0...8{
-            drawCircle(position: CGFloat(x), filled: false)
-        }
-        drawCircle(position: 5, filled: true)
+        printCircles(filledCircle: 5)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -31,10 +28,10 @@ class CircleContainerViewController: UIViewController {
     
     public func drawCircle(position: CGFloat, filled : Bool){
         let halfSize:CGFloat = 7
-        let desiredLineWidth:CGFloat = 1    // your desired value
+        let desiredLineWidth:CGFloat = 2    // your desired value
         
         let circlePath = UIBezierPath(
-            arcCenter: CGPoint(x: (position * self.view.bounds.width/8),y: self.view.bounds.height/2),
+            arcCenter: CGPoint(x: (position * self.view.bounds.width/8),y: self.view.bounds.height),
             radius: CGFloat( halfSize - (desiredLineWidth/2) ),
             startAngle: CGFloat(0),
             endAngle:CGFloat(M_PI * 2),
@@ -44,16 +41,27 @@ class CircleContainerViewController: UIViewController {
         shapeLayer.path = circlePath.cgPath
         
         if(filled){
-            shapeLayer.fillColor = UIColor.red.cgColor
+            shapeLayer.fillColor = UIColor.white.cgColor
         }else{
             shapeLayer.fillColor = UIColor.clear.cgColor
         }
-        shapeLayer.strokeColor = UIColor.red.cgColor
+        shapeLayer.strokeColor = UIColor.white.cgColor
         shapeLayer.lineWidth = desiredLineWidth
         
         self.view.layer.addSublayer(shapeLayer)
     }
 
+    func printCircles(filledCircle : CGFloat){
+        if let layers = self.view.layer.sublayers{
+            for layer in layers{
+                layer.removeFromSuperlayer()
+            }
+        }
+        for x in 0...8{
+            drawCircle(position: CGFloat(x), filled: false)
+        }
+        drawCircle(position: filledCircle, filled: true)
+    }
     /*
     // MARK: - Navigation
 
