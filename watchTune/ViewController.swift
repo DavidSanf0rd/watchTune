@@ -16,11 +16,14 @@ class ViewController: UIViewController {
     var mic: AKMicrophone!
     var tracker: AKFrequencyTracker!
     var silence: AKBooster!
-    
+    var picker : PickerContainerViewController!
+    var cirles : CircleContainerViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.picker = self.childViewControllers.last as! PickerContainerViewController!
+        self.cirles = self.childViewControllers.first as! CircleContainerViewController!
         AKSettings.audioInputEnabled = true
         mic = AKMicrophone()
         tracker = AKFrequencyTracker.init(mic)
