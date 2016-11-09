@@ -44,7 +44,7 @@ class PickerContainerViewController: UIViewController, AKPickerViewDelegate, AKP
         self.pickerView.interitemSpacing = 20.0
         self.pickerView.font = UIFont(name: "Avenir Next", size: 40)
         self.pickerView.highlightedFont = UIFont(name: "Avenir Next", size: 40)
-        self.pickerView.highlightedTextColor = UIColor.red
+        self.pickerView.highlightedTextColor = UIColor.white
         self.pickerView.fisheyeFactor = 0.001
         
         self.pickerView.reloadData()

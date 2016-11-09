@@ -14,37 +14,44 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watchTune_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label height="20" alignment="center" verticalAlignment="center" text="note" id="JuU-0w-LXF"/>
+                        <picker height="100" alignment="left" focusStyle="sequence" id="6og-48-ky0">
+                            <connections>
+                                <action selector="changedItem:" destination="AgC-eL-Hgc" id="GJ4-fa-6ue"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Tune" id="6vK-F1-xZw">
+                            <connections>
+                                <action selector="beginBtn" destination="AgC-eL-Hgc" id="YeN-FN-nvC"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
-                        <outlet property="lblNote" destination="JuU-0w-LXF" id="K8B-mW-DKF"/>
+                        <outlet property="picker" destination="6og-48-ky0" id="0d1-Mi-TDr"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
+        <!--TuneView-->
+        <scene sceneID="eO4-Ea-hKj">
             <objects>
-                <notificationController id="YCC-NB-fut">
+                <controller identifier="TuneView" id="rAC-5M-1ZX" customClass="TunerViewController" customModule="watchTune_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                        <label alignment="center" text="C" id="zJv-pz-Gly">
+                            <fontDescription key="font" type="boldSystem" pointSize="73"/>
+                        </label>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Stop" id="Mw0-ps-p41">
+                            <connections>
+                                <action selector="stopBtn" destination="rAC-5M-1ZX" id="X1g-37-tfc"/>
+                            </connections>
+                        </button>
                     </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
-                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <outlet property="note" destination="zJv-pz-Gly" id="QyS-RC-5Vp"/>
                     </connections>
-                </notificationController>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
-        </scene>
-        <!--Notification Controller-->
-        <scene sceneID="ZPc-GJ-vnh">
-            <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="watchTune_WatchKit_App" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="529" y="348"/>
         </scene>
     </scenes>
 </document>

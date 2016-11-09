@@ -28,7 +28,7 @@ class CircleContainerViewController: UIViewController {
     
     public func drawCircle(position: CGFloat, filled : Bool){
         let halfSize:CGFloat = 7
-        let desiredLineWidth:CGFloat = 1    // your desired value
+        let desiredLineWidth:CGFloat = 2    // your desired value
         
         let circlePath = UIBezierPath(
             arcCenter: CGPoint(x: (position * self.view.bounds.width/8),y: self.view.bounds.height),
@@ -41,11 +41,11 @@ class CircleContainerViewController: UIViewController {
         shapeLayer.path = circlePath.cgPath
         
         if(filled){
-            shapeLayer.fillColor = UIColor.red.cgColor
+            shapeLayer.fillColor = UIColor.white.cgColor
         }else{
             shapeLayer.fillColor = UIColor.clear.cgColor
         }
-        shapeLayer.strokeColor = UIColor.red.cgColor
+        shapeLayer.strokeColor = UIColor.white.cgColor
         shapeLayer.lineWidth = desiredLineWidth
         
         self.view.layer.addSublayer(shapeLayer)
