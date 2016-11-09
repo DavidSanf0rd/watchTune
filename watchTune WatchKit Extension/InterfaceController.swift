@@ -15,7 +15,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var picker: WKInterfacePicker!
     let noteNames = ["C", "C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"]
     var currentItem = "C"
-   
+    
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
@@ -39,7 +39,7 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
+    
     
     
     @IBAction func changedItem(_ value: Int) {

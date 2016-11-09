@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  watchTune
 //
-//  Created by Vitor Muniz on 07/11/16.
-//  Copyright © 2016 Vitor Muniz. All rights reserved.
+//  Created by David Sanford on 09/11/16.
+//  Copyright © 2016 David Sanford. All rights reserved.
 //
 
 import UIKit

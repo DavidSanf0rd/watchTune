@@ -10,7 +10,7 @@ import UIKit
 import WatchKit
 
 class TunerViewController: WKInterfaceController {
-
+    
     @IBOutlet var note: WKInterfaceLabel!
     
     var colors = [UIColor(red: 63.0/255.0, green: 225.0/255.0, blue: 232.0/255.0, alpha: 1.0),                                                 // Blues
@@ -22,7 +22,7 @@ class TunerViewController: WKInterfaceController {
         UIColor(red: 247.0/255.0, green: 204.0/255.0, blue: 46.0/255.0, alpha: 1.0),
         UIColor(red: 227.0/255.0, green: 147.0/255.0, blue: 36.0/255.0, alpha: 1.0),
         UIColor(red: 227.0/255.0, green: 103.0/255.0, blue: 26.0/255.0, alpha: 1.0)]
-
+    
     var choosenNote: String = ""
     
     override func awake(withContext context: Any?) {

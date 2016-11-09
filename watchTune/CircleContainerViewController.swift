@@ -15,7 +15,7 @@ class CircleContainerViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-
+    
     override func viewDidLayoutSubviews() {
         printCircles(filledCircle: 5)
     }
@@ -50,7 +50,7 @@ class CircleContainerViewController: UIViewController {
         
         self.view.layer.addSublayer(shapeLayer)
     }
-
+    
     func printCircles(filledCircle : CGFloat){
         if let layers = self.view.layer.sublayers{
             for layer in layers{
@@ -63,13 +63,13 @@ class CircleContainerViewController: UIViewController {
         drawCircle(position: filledCircle, filled: true)
     }
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
