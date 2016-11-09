@@ -52,29 +52,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-<<<<<<< HEAD
-    func updateUI(){
-        
-        if tracker.amplitude > 0.1 {
-           let note = MusicUtilities.detectPitch(frequencyValue: tracker.frequency)
-           lblNote.text = "\(note.noteName)\(note.octave) frequency:\(note.noteFrequency)"
-           
-           //print(MusicUtilities.noteDiference(firstFrequency: MusicUtilities.frequencyFor(noteSymbol:"C", octave:"2"), secondFrequency: Float(tracker.frequency)))
-           let direction =  MusicUtilities.directionToTune(desireNote:"A", currentFrequency: tracker.frequency)
-           print(direction)
-=======
-    
-    
+
     func updateUI() {
         if tracker.amplitude > 0.1 {
-           let note = MusicUtilities.detectPitch(frequencyValue: Float(tracker.frequency))
-//           lblNote.text = "\(note.noteName)\(note.octave)"
            let number = Int(arc4random_uniform(8))
            self.circles.printCircles(filledCircle: CGFloat(number))
            self.view.backgroundColor = (colors[number])
            self.circles.view.backgroundColor = (colors[number])
            self.picker.view.backgroundColor = (colors[number])
->>>>>>> ca8d404bfd847ab74190e4ed5d8bf130efa18fbc
         }
     }
 }
