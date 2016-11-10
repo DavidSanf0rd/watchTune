@@ -33,19 +33,19 @@ class TunerViewController: WKInterfaceController, WCSessionDelegate {
         UIColor(red: 227.0/255.0, green: 147.0/255.0, blue: 36.0/255.0, alpha: 1.0),
         UIColor(red: 227.0/255.0, green: 103.0/255.0, blue: 26.0/255.0, alpha: 1.0)]
     
-    var choosenNote: [String : Int] = [" ":0]
+    var choosenNote: [String : Any]?
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        choosenNote = context as! [String : Int]
-        note.setText(choosenNote.keys.first!)
+        choosenNote = context as! [String : Any]?
+        note.setText(choosenNote!["note"] as? String)
         
         self.background.setBackgroundColor(colors[4])
         //Session
         
         self.session = WCSession.default()
         if session!.isReachable{
-            self.session!.sendMessage(["Note": choosenNote], replyHandler: nil, errorHandler: nil)
+            self.session!.sendMessage(choosenNote!, replyHandler: nil, errorHandler: nil)
         }else{
             print("App not reachable")
         }
@@ -64,11 +64,7 @@ class TunerViewController: WKInterfaceController, WCSessionDelegate {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-    
-    @IBAction func stopBtn() {
-        //Close connectivity
-    }
-    
+   
     
     //Sessions
     

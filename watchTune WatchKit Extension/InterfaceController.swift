@@ -49,7 +49,7 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func beginBtn() {
-        let info = [currentItem : currentNumber]
+        let info = ["note" : currentItem, "index" : currentNumber] as [String : Any]
         self.presentController(withName: "TuneView", context: info)
     }
     

@@ -39,14 +39,9 @@
                     <items>
                         <group width="1" height="1" alignment="left" layout="vertical" id="v8O-pW-Mwz">
                             <items>
-                                <label alignment="center" text="C" id="zJv-pz-Gly">
+                                <label alignment="center" verticalAlignment="center" text="C" id="zJv-pz-Gly">
                                     <fontDescription key="font" type="boldSystem" pointSize="73"/>
                                 </label>
-                                <button width="1" alignment="left" verticalAlignment="bottom" title="Stop" id="Mw0-ps-p41">
-                                    <connections>
-                                        <action selector="stopBtn" destination="rAC-5M-1ZX" id="X1g-37-tfc"/>
-                                    </connections>
-                                </button>
                             </items>
                         </group>
                     </items>

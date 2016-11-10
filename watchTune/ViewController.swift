@@ -125,8 +125,11 @@ class ViewController: UIViewController, WCSessionDelegate {
     }
     
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
-        if let note = message["note"] {
-            self.picker.pickerView.scroll(toItem: UInt(note as! Int), animated: true)
+        if let note = message["index"] {
+            self.picker.lastSelectedItem = UInt(note as! Int)
+            self.picker.pickerView.selectItem(UInt(note as! Int), animated: false)
+            print(self.picker.lastSelectedItem)
         }
     }
+    
 }
