@@ -36,7 +36,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
         switch complication.family {
         case .utilitarianLarge:
             let modularTemplate = CLKComplicationTemplateUtilitarianLargeFlat()
-            modularTemplate.textProvider = CLKSimpleTextProvider(text: "Sanf0rd 580")
+            modularTemplate.textProvider = CLKSimpleTextProvider(text: "Afinador")
             
             template = modularTemplate
             
@@ -67,7 +67,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
         switch complication.family {
         case .utilitarianLarge:
             let modularTemplate = CLKComplicationTemplateUtilitarianLargeFlat()
-            modularTemplate.textProvider = CLKSimpleTextProvider(text: "Sanf0rd 580")
+            modularTemplate.textProvider = CLKSimpleTextProvider(text: "Afinador")
         
             template = modularTemplate
         default:
