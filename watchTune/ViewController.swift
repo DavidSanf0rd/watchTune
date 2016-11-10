@@ -127,8 +127,16 @@ class ViewController: UIViewController, WCSessionDelegate {
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
         if let note = message["index"] {
             self.picker.lastSelectedItem = UInt(note as! Int)
-            self.picker.pickerView.selectItem(UInt(note as! Int), animated: false)
+            
+            
+            DispatchQueue.main.async {
+                self.picker.pickerView.selectItem(UInt(note as! Int), animated: false)
+                self.paintBackground(number: 4)
+            }
+            
+            
             print(self.picker.lastSelectedItem)
+            
         }
     }
     
