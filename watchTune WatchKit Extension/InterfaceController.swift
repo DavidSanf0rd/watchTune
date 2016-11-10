@@ -15,6 +15,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var picker: WKInterfacePicker!
     let noteNames = ["C", "C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"]
     var currentItem = "C"
+    var currentNumber = 0;
     
     
     override func awake(withContext context: Any?) {
@@ -44,10 +45,12 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func changedItem(_ value: Int) {
         currentItem = noteNames[value]
+        currentNumber = value
     }
     
     @IBAction func beginBtn() {
-        self.presentController(withName: "TuneView", context: currentItem)
+        let info = [currentItem : currentNumber]
+        self.presentController(withName: "TuneView", context: info)
     }
     
 }

@@ -37,21 +37,27 @@
             <objects>
                 <controller identifier="TuneView" id="rAC-5M-1ZX" customClass="TunerViewController" customModule="watchTune_WatchKit_Extension">
                     <items>
-                        <label alignment="center" text="C" id="zJv-pz-Gly">
-                            <fontDescription key="font" type="boldSystem" pointSize="73"/>
-                        </label>
-                        <button width="1" alignment="left" verticalAlignment="bottom" title="Stop" id="Mw0-ps-p41">
-                            <connections>
-                                <action selector="stopBtn" destination="rAC-5M-1ZX" id="X1g-37-tfc"/>
-                            </connections>
-                        </button>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="v8O-pW-Mwz">
+                            <items>
+                                <label alignment="center" text="C" id="zJv-pz-Gly">
+                                    <fontDescription key="font" type="boldSystem" pointSize="73"/>
+                                </label>
+                                <button width="1" alignment="left" verticalAlignment="bottom" title="Stop" id="Mw0-ps-p41">
+                                    <connections>
+                                        <action selector="stopBtn" destination="rAC-5M-1ZX" id="X1g-37-tfc"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
                     <connections>
+                        <outlet property="background" destination="v8O-pW-Mwz" id="83S-ii-neG"/>
                         <outlet property="note" destination="zJv-pz-Gly" id="QyS-RC-5Vp"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="529" y="348"/>
+            <point key="canvasLocation" x="529" y="349"/>
         </scene>
     </scenes>
 </document>

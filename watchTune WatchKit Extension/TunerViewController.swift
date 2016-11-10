@@ -8,10 +8,20 @@
 
 import UIKit
 import WatchKit
+import WatchConnectivity
 
-class TunerViewController: WKInterfaceController {
+class TunerViewController: WKInterfaceController, WCSessionDelegate {
     
+    @IBOutlet var background: WKInterfaceGroup!
     @IBOutlet var note: WKInterfaceLabel!
+    var session : WCSession? {
+        didSet {
+            if let session = session {
+                session.delegate = self
+                session.activate()
+            }
+        }
+    }
     
     var colors = [UIColor(red: 63.0/255.0, green: 225.0/255.0, blue: 232.0/255.0, alpha: 1.0),                                                 // Blues
         UIColor(red: 67.0/255.0, green: 158.0/255.0, blue: 224.0/255.0, alpha: 1.0),
@@ -23,12 +33,24 @@ class TunerViewController: WKInterfaceController {
         UIColor(red: 227.0/255.0, green: 147.0/255.0, blue: 36.0/255.0, alpha: 1.0),
         UIColor(red: 227.0/255.0, green: 103.0/255.0, blue: 26.0/255.0, alpha: 1.0)]
     
-    var choosenNote: String = ""
+    var choosenNote: [String : Int] = [" ":0]
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        choosenNote = context as! String
-        note.setText(choosenNote)
+        choosenNote = context as! [String : Int]
+        note.setText(choosenNote.keys.first!)
+        
+        self.background.setBackgroundColor(colors[4])
+        //Session
+        
+        self.session = WCSession.default()
+        if session!.isReachable{
+            self.session!.sendMessage(["Note": choosenNote], replyHandler: nil, errorHandler: nil)
+        }else{
+            print("App not reachable")
+        }
+        
+        
         
         // Configure interface objects here.
     }
@@ -45,5 +67,21 @@ class TunerViewController: WKInterfaceController {
     
     @IBAction func stopBtn() {
         //Close connectivity
+    }
+    
+    
+    //Sessions
+    
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        //TODO
+    }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        //TODO Change Background
+        self.background.setBackgroundColor(colors[message["value"] as! Int])
+    }
+    
+    func session(_ session: WCSession, didReceiveApplicationContext applicationContext: [String : Any]) {
+        //TODO
     }
 }

@@ -8,8 +8,9 @@
 
 import UIKit
 import AudioKit
+import WatchConnectivity
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WCSessionDelegate {
     
     //    @IBOutlet weak var lblNote: UILabel!
     let noteNames = ["C", "C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"]
@@ -31,8 +32,19 @@ class ViewController: UIViewController {
     var picker : PickerContainerViewController!
     var circles : CircleContainerViewController!
     
+    var session : WCSession? {
+        didSet {
+            if let session = session {
+                session.delegate = self
+                session.activate()
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.session = WCSession.default()
+        
         // Do any additional setup after loading the view, typically from a nib.
         self.picker = self.childViewControllers.last as! PickerContainerViewController!
         self.circles = self.childViewControllers.first as! CircleContainerViewController!
@@ -40,6 +52,7 @@ class ViewController: UIViewController {
         mic = AKMicrophone()
         tracker = AKFrequencyTracker.init(mic)
         silence = AKBooster(tracker, gain: 0)
+        self.paintBackground(number: 4)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -59,67 +72,61 @@ class ViewController: UIViewController {
             
             let number = MusicUtilities.directionToTune(desireNote: noteNames[Int(picker.lastSelectedItem)], currentFrequency: self.tracker.frequency)
             switch number {
-            case _ where number <= -0.80:
-                self.circles.printCircles(filledCircle: CGFloat(0))
-                self.view.backgroundColor = (colors[0])
-                self.circles.view.backgroundColor = (colors[0])
-                self.picker.view.backgroundColor = (colors[0])
-            case _ where number <= -0.60 && number >= -0.80:
-                self.circles.printCircles(filledCircle: CGFloat(1))
-                self.view.backgroundColor = (colors[1])
-                self.circles.view.backgroundColor = (colors[1])
-                self.picker.view.backgroundColor = (colors[1])
-            case _ where number <= -0.40 && number >= -0.60:
-                self.circles.printCircles(filledCircle: CGFloat(2))
-                self.view.backgroundColor = (colors[2])
-                self.circles.view.backgroundColor = (colors[2])
-                self.picker.view.backgroundColor = (colors[2])
-            case _ where number <= -0.20 && number >= -0.40:
-                self.circles.printCircles(filledCircle: CGFloat(3))
-                self.view.backgroundColor = (colors[3])
-                self.circles.view.backgroundColor = (colors[3])
-                self.picker.view.backgroundColor = (colors[3])
-            case _ where number < 0 && number >= -0.20:
-                self.circles.printCircles(filledCircle: CGFloat(3))
-                self.view.backgroundColor = (colors[3])
-                self.circles.view.backgroundColor = (colors[3])
-                self.picker.view.backgroundColor = (colors[3])
+            case _ where number <= -0.75:
+                paintBackground(number: 8)
+            case _ where number <= -0.50 && number >= -0.75:
+                paintBackground(number: 7)
+            case _ where number <= -0.25 && number >= -0.50:
+                paintBackground(number: 6)
+            case _ where number <= 0.0 && number >= -0.25:
+                paintBackground(number: 5)
             case _ where number == 0:
-                self.circles.printCircles(filledCircle: CGFloat(4))
-                self.view.backgroundColor = (colors[4])
-                self.circles.view.backgroundColor = (colors[4])
-                self.picker.view.backgroundColor = (colors[4])
-            case _ where number > 0 && number < 0.2:
-                self.circles.printCircles(filledCircle: CGFloat(5))
-                self.view.backgroundColor = (colors[5])
-                self.circles.view.backgroundColor = (colors[5])
-                self.picker.view.backgroundColor = (colors[5])
-            case _ where number > 0.2 && number < 0.4:
-                self.circles.printCircles(filledCircle: CGFloat(6))
-                self.view.backgroundColor = (colors[6])
-                self.circles.view.backgroundColor = (colors[6])
-                self.picker.view.backgroundColor = (colors[6])
-            case _ where number > 0.4 && number < 0.6:
-                self.circles.printCircles(filledCircle: CGFloat(7))
-                self.view.backgroundColor = (colors[7])
-                self.circles.view.backgroundColor = (colors[7])
-                self.picker.view.backgroundColor = (colors[7])
-            case _ where number > 0.6 && number < 0.8:
-                self.circles.printCircles(filledCircle: CGFloat(7))
-                self.view.backgroundColor = (colors[7])
-                self.circles.view.backgroundColor = (colors[7])
-                self.picker.view.backgroundColor = (colors[7])
-            case _ where number > 0.8:
-                self.circles.printCircles(filledCircle: CGFloat(8))
-                self.view.backgroundColor = (colors[8])
-                self.circles.view.backgroundColor = (colors[8])
-                self.picker.view.backgroundColor = (colors[8])
+                paintBackground(number: 4)
+            case _ where number > 0 && number < 0.25:
+                paintBackground(number: 3)
+            case _ where number > 0.25 && number < 0.5:
+                paintBackground(number: 2)
+            case _ where number > 0.5 && number < 0.75:
+                paintBackground(number: 2)
+            case _ where number > 0.75 && number <= 1.0:
+                paintBackground(number: 1)
             default:
-                self.circles.printCircles(filledCircle: CGFloat(4))
-                self.view.backgroundColor = (colors[4])
-                self.circles.view.backgroundColor = (colors[4])
-                self.picker.view.backgroundColor = (colors[4])
+                paintBackground(number: 4)
             }
+        }
+    }
+    
+    
+    func paintBackground(number : Int) {
+        self.circles.printCircles(filledCircle: CGFloat(number))
+        self.view.backgroundColor = (colors[number])
+        self.circles.view.backgroundColor = (colors[number])
+        self.picker.view.backgroundColor = (colors[number])
+        
+        if session!.isReachable{
+            self.session!.sendMessage(["value" : number], replyHandler: nil, errorHandler: nil)
+        }else{
+            print("App not reachable")
+        }
+    }
+    
+    func sessionDidBecomeInactive(_ session: WCSession) {
+        //TODO
+    }
+    
+    func sessionDidDeactivate(_ session: WCSession) {
+        //TODO
+    }
+    
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+        if let erro = error{
+            print(erro.localizedDescription)
+        }
+    }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        if let note = message["note"] {
+            self.picker.pickerView.scroll(toItem: UInt(note as! Int), animated: true)
         }
     }
 }

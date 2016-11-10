@@ -54,7 +54,9 @@ class CircleContainerViewController: UIViewController {
     func printCircles(filledCircle : CGFloat){
         if let layers = self.view.layer.sublayers{
             for layer in layers{
-                layer.removeFromSuperlayer()
+                if layer is CAShapeLayer{
+                    layer.removeFromSuperlayer()
+                }
             }
         }
         for x in 0...8{

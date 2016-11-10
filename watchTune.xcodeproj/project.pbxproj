@@ -306,17 +306,17 @@
 				TargetAttributes = {
 					E71C0B921DD35D550062933A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 7TA93L29G2;
+						DevelopmentTeam = 489VWS49NR;
 						ProvisioningStyle = Automatic;
 					};
 					E71C0BA41DD35D550062933A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 7TA93L29G2;
+						DevelopmentTeam = 489VWS49NR;
 						ProvisioningStyle = Automatic;
 					};
 					E71C0BB31DD35D550062933A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 7TA93L29G2;
+						DevelopmentTeam = 489VWS49NR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -580,6 +580,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -629,6 +630,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -658,7 +660,7 @@
 			baseConfigurationReference = 755C6E421F4AEB57782B1678 /* Pods-watchTune WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = 7TA93L29G2;
+				DEVELOPMENT_TEAM = 489VWS49NR;
 				INFOPLIST_FILE = "watchTune WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune.watchkitapp.watchkitextension;
@@ -676,7 +678,7 @@
 			baseConfigurationReference = BD706168338B7704F5DF51D5 /* Pods-watchTune WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = 7TA93L29G2;
+				DEVELOPMENT_TEAM = 489VWS49NR;
 				INFOPLIST_FILE = "watchTune WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune.watchkitapp.watchkitextension;
@@ -695,7 +697,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7TA93L29G2;
+				DEVELOPMENT_TEAM = 489VWS49NR;
 				IBSC_MODULE = watchTune_WatchKit_Extension;
 				INFOPLIST_FILE = "watchTune WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune.watchkitapp;
@@ -714,7 +716,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7TA93L29G2;
+				DEVELOPMENT_TEAM = 489VWS49NR;
 				IBSC_MODULE = watchTune_WatchKit_Extension;
 				INFOPLIST_FILE = "watchTune WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune.watchkitapp;
@@ -732,7 +734,7 @@
 			baseConfigurationReference = 4C55D1573F34C88C1C10C37A /* Pods-watchTune.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7TA93L29G2;
+				DEVELOPMENT_TEAM = 489VWS49NR;
 				INFOPLIST_FILE = watchTune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune;
@@ -746,7 +748,7 @@
 			baseConfigurationReference = 5086E6E90642BC9620139FC3 /* Pods-watchTune.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7TA93L29G2;
+				DEVELOPMENT_TEAM = 489VWS49NR;
 				INFOPLIST_FILE = watchTune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune;
