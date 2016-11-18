@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10C1FFB11DDF1E0B0028AC79 /* watchTuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1FFB01DDF1E0B0028AC79 /* watchTuneTests.swift */; };
+		10C1FFBA1DDF28230028AC79 /* musicUtilitiesQuickTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1FFB91DDF28230028AC79 /* musicUtilitiesQuickTest.swift */; };
 		1402CC14BB5FF3EEE1905E6E /* Pods_watchTune_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7C122C42F3F13A685B5FDF /* Pods_watchTune_WatchKit_Extension.framework */; };
+		8C09EEC88BA19AA1574E2F9C /* Pods_watchTune_watchTuneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0E702868D9B4F46E269E92 /* Pods_watchTune_watchTuneTests.framework */; };
 		97469EF9295BCA6EBC0114EB /* Pods_watchTune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED37161864EDB81F79FFFC34 /* Pods_watchTune.framework */; };
+		A077BF1DDE35DC41CBD147F2 /* libPods-watchTuneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3661B7213CF89C758B42DC /* libPods-watchTuneTests.a */; };
 		E11DE865D6D90017F43D1382 /* Pods_watchTune_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F991FB404CF95C883231E2 /* Pods_watchTune_WatchKit_App.framework */; };
 		E71C0B971DD35D550062933A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71C0B961DD35D550062933A /* AppDelegate.swift */; };
 		E71C0B991DD35D550062933A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71C0B981DD35D550062933A /* ViewController.swift */; };
@@ -31,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		10C1FFB31DDF1E0B0028AC79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71C0B8B1DD35D550062933A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E71C0B921DD35D550062933A;
+			remoteInfo = watchTune;
+		};
 		E71C0BA71DD35D550062933A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E71C0B8B1DD35D550062933A /* Project object */;
@@ -73,10 +84,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10C1FFAE1DDF1E0B0028AC79 /* watchTuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchTuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C1FFB01DDF1E0B0028AC79 /* watchTuneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchTuneTests.swift; sourceTree = "<group>"; };
+		10C1FFB21DDF1E0B0028AC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C1FFB91DDF28230028AC79 /* musicUtilitiesQuickTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = musicUtilitiesQuickTest.swift; path = watchTuneTests/musicUtilitiesQuickTest.swift; sourceTree = SOURCE_ROOT; };
 		4C55D1573F34C88C1C10C37A /* Pods-watchTune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTune.debug.xcconfig"; path = "Pods/Target Support Files/Pods-watchTune/Pods-watchTune.debug.xcconfig"; sourceTree = "<group>"; };
 		5086E6E90642BC9620139FC3 /* Pods-watchTune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTune.release.xcconfig"; path = "Pods/Target Support Files/Pods-watchTune/Pods-watchTune.release.xcconfig"; sourceTree = "<group>"; };
 		6E7C122C42F3F13A685B5FDF /* Pods_watchTune_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7D6E6AADBF512352C73FA1 /* Pods-watchTune-watchTuneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTune-watchTuneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-watchTune-watchTuneTests/Pods-watchTune-watchTuneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		755C6E421F4AEB57782B1678 /* Pods-watchTune WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTune WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-watchTune WatchKit Extension/Pods-watchTune WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		7C0E702868D9B4F46E269E92 /* Pods_watchTune_watchTuneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune_watchTuneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		963F0863890C32070940F0B8 /* Pods-watchTune-watchTuneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTune-watchTuneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-watchTune-watchTuneTests/Pods-watchTune-watchTuneTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D3661B7213CF89C758B42DC /* libPods-watchTuneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-watchTuneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F991FB404CF95C883231E2 /* Pods_watchTune_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD706168338B7704F5DF51D5 /* Pods-watchTune WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTune WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-watchTune WatchKit Extension/Pods-watchTune WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		C9A9FDC7B8DE661B2544F1C9 /* Pods-watchTune WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTune WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-watchTune WatchKit App/Pods-watchTune WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,9 +124,20 @@
 		E71C0BD71DD3D0430062933A /* PickerContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerContainerViewController.swift; sourceTree = "<group>"; };
 		E71C0BD91DD3D0C50062933A /* TunerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunerViewController.swift; sourceTree = "<group>"; };
 		ED37161864EDB81F79FFFC34 /* Pods_watchTune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchTune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70FE1C9662CC54F7B7C305A /* Pods-watchTuneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTuneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-watchTuneTests/Pods-watchTuneTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7D6525819DB242523BBE6B8 /* Pods-watchTuneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watchTuneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-watchTuneTests/Pods-watchTuneTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10C1FFAB1DDF1E0B0028AC79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A077BF1DDE35DC41CBD147F2 /* libPods-watchTuneTests.a in Frameworks */,
+				8C09EEC88BA19AA1574E2F9C /* Pods_watchTune_watchTuneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E71C0B901DD35D550062933A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,8 +171,20 @@
 				ED37161864EDB81F79FFFC34 /* Pods_watchTune.framework */,
 				B8F991FB404CF95C883231E2 /* Pods_watchTune_WatchKit_App.framework */,
 				6E7C122C42F3F13A685B5FDF /* Pods_watchTune_WatchKit_Extension.framework */,
+				9D3661B7213CF89C758B42DC /* libPods-watchTuneTests.a */,
+				7C0E702868D9B4F46E269E92 /* Pods_watchTune_watchTuneTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10C1FFAF1DDF1E0B0028AC79 /* watchTuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				10C1FFB91DDF28230028AC79 /* musicUtilitiesQuickTest.swift */,
+				10C1FFB01DDF1E0B0028AC79 /* watchTuneTests.swift */,
+				10C1FFB21DDF1E0B0028AC79 /* Info.plist */,
+			);
+			path = watchTuneTests;
 			sourceTree = "<group>";
 		};
 		E71C0B8A1DD35D550062933A = {
@@ -151,6 +193,7 @@
 				E71C0B951DD35D550062933A /* watchTune */,
 				E71C0BA91DD35D550062933A /* watchTune WatchKit App */,
 				E71C0BB81DD35D550062933A /* watchTune WatchKit Extension */,
+				10C1FFAF1DDF1E0B0028AC79 /* watchTuneTests */,
 				E71C0B941DD35D550062933A /* Products */,
 				F801F31BD16BA8982C3EAF81 /* Pods */,
 				05564E0E09B816008C6C7BF8 /* Frameworks */,
@@ -163,6 +206,7 @@
 				E71C0B931DD35D550062933A /* watchTune.app */,
 				E71C0BA51DD35D550062933A /* watchTune WatchKit App.app */,
 				E71C0BB41DD35D550062933A /* watchTune WatchKit Extension.appex */,
+				10C1FFAE1DDF1E0B0028AC79 /* watchTuneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,6 +269,10 @@
 				C9A9FDC7B8DE661B2544F1C9 /* Pods-watchTune WatchKit App.release.xcconfig */,
 				755C6E421F4AEB57782B1678 /* Pods-watchTune WatchKit Extension.debug.xcconfig */,
 				BD706168338B7704F5DF51D5 /* Pods-watchTune WatchKit Extension.release.xcconfig */,
+				F7D6525819DB242523BBE6B8 /* Pods-watchTuneTests.debug.xcconfig */,
+				F70FE1C9662CC54F7B7C305A /* Pods-watchTuneTests.release.xcconfig */,
+				6F7D6E6AADBF512352C73FA1 /* Pods-watchTune-watchTuneTests.debug.xcconfig */,
+				963F0863890C32070940F0B8 /* Pods-watchTune-watchTuneTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -232,6 +280,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		10C1FFAD1DDF1E0B0028AC79 /* watchTuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C1FFB71DDF1E0B0028AC79 /* Build configuration list for PBXNativeTarget "watchTuneTests" */;
+			buildPhases = (
+				B2AE74765131C7816616D055 /* [CP] Check Pods Manifest.lock */,
+				10C1FFAA1DDF1E0B0028AC79 /* Sources */,
+				10C1FFAB1DDF1E0B0028AC79 /* Frameworks */,
+				10C1FFAC1DDF1E0B0028AC79 /* Resources */,
+				B57ED13B6EADAAA04F12503C /* [CP] Embed Pods Frameworks */,
+				90C17CF512B8487863E29A7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C1FFB41DDF1E0B0028AC79 /* PBXTargetDependency */,
+			);
+			name = watchTuneTests;
+			productName = watchTuneTests;
+			productReference = 10C1FFAE1DDF1E0B0028AC79 /* watchTuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E71C0B921DD35D550062933A /* watchTune */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E71C0BD01DD35D550062933A /* Build configuration list for PBXNativeTarget "watchTune" */;
@@ -304,19 +373,25 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "David Sanford";
 				TargetAttributes = {
+					10C1FFAD1DDF1E0B0028AC79 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 93ZH5ZQA23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E71C0B921DD35D550062933A;
+					};
 					E71C0B921DD35D550062933A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 489VWS49NR;
+						DevelopmentTeam = 93ZH5ZQA23;
 						ProvisioningStyle = Automatic;
 					};
 					E71C0BA41DD35D550062933A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 489VWS49NR;
+						DevelopmentTeam = 93ZH5ZQA23;
 						ProvisioningStyle = Automatic;
 					};
 					E71C0BB31DD35D550062933A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 489VWS49NR;
+						DevelopmentTeam = 93ZH5ZQA23;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -337,11 +412,19 @@
 				E71C0B921DD35D550062933A /* watchTune */,
 				E71C0BA41DD35D550062933A /* watchTune WatchKit App */,
 				E71C0BB31DD35D550062933A /* watchTune WatchKit Extension */,
+				10C1FFAD1DDF1E0B0028AC79 /* watchTuneTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		10C1FFAC1DDF1E0B0028AC79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E71C0B911DD35D550062933A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,7 +482,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6808F5A8369EE59BC2C9D682 /* [CP] Check Pods Manifest.lock */ = {
@@ -414,7 +497,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8D589B590C085D091B6CEE85 /* [CP] Copy Pods Resources */ = {
@@ -432,6 +515,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-watchTune/Pods-watchTune-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		90C17CF512B8487863E29A7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-watchTune-watchTuneTests/Pods-watchTune-watchTuneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9D799AD6E1430D3B8949CE9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,7 +542,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AE74765131C7816616D055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B2ECF8B86B213BC0DE748F49 /* [CP] Copy Pods Resources */ = {
@@ -460,6 +573,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-watchTune WatchKit Extension/Pods-watchTune WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57ED13B6EADAAA04F12503C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-watchTune-watchTuneTests/Pods-watchTune-watchTuneTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBC66ACFC69B348163184FDE /* [CP] Copy Pods Resources */ = {
@@ -495,6 +623,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		10C1FFAA1DDF1E0B0028AC79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C1FFBA1DDF28230028AC79 /* musicUtilitiesQuickTest.swift in Sources */,
+				10C1FFB11DDF1E0B0028AC79 /* watchTuneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E71C0B8F1DD35D550062933A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -522,6 +659,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		10C1FFB41DDF1E0B0028AC79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E71C0B921DD35D550062933A /* watchTune */;
+			targetProxy = 10C1FFB31DDF1E0B0028AC79 /* PBXContainerItemProxy */;
+		};
 		E71C0BA81DD35D550062933A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E71C0BA41DD35D550062933A /* watchTune WatchKit App */;
@@ -562,6 +704,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		10C1FFB51DDF1E0B0028AC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7D6E6AADBF512352C73FA1 /* Pods-watchTune-watchTuneTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93ZH5ZQA23;
+				INFOPLIST_FILE = watchTuneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchTuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchTune.app/watchTune";
+			};
+			name = Debug;
+		};
+		10C1FFB61DDF1E0B0028AC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963F0863890C32070940F0B8 /* Pods-watchTune-watchTuneTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93ZH5ZQA23;
+				INFOPLIST_FILE = watchTuneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.watchTuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchTune.app/watchTune";
+			};
+			name = Release;
+		};
 		E71C0BC61DD35D550062933A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -660,7 +832,7 @@
 			baseConfigurationReference = 755C6E421F4AEB57782B1678 /* Pods-watchTune WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = 489VWS49NR;
+				DEVELOPMENT_TEAM = 93ZH5ZQA23;
 				INFOPLIST_FILE = "watchTune WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune.watchkitapp.watchkitextension;
@@ -678,7 +850,7 @@
 			baseConfigurationReference = BD706168338B7704F5DF51D5 /* Pods-watchTune WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = 489VWS49NR;
+				DEVELOPMENT_TEAM = 93ZH5ZQA23;
 				INFOPLIST_FILE = "watchTune WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune.watchkitapp.watchkitextension;
@@ -697,7 +869,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 489VWS49NR;
+				DEVELOPMENT_TEAM = 93ZH5ZQA23;
 				IBSC_MODULE = watchTune_WatchKit_Extension;
 				INFOPLIST_FILE = "watchTune WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune.watchkitapp;
@@ -716,7 +888,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 489VWS49NR;
+				DEVELOPMENT_TEAM = 93ZH5ZQA23;
 				IBSC_MODULE = watchTune_WatchKit_Extension;
 				INFOPLIST_FILE = "watchTune WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune.watchkitapp;
@@ -734,7 +906,7 @@
 			baseConfigurationReference = 4C55D1573F34C88C1C10C37A /* Pods-watchTune.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 489VWS49NR;
+				DEVELOPMENT_TEAM = 93ZH5ZQA23;
 				INFOPLIST_FILE = watchTune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune;
@@ -748,7 +920,7 @@
 			baseConfigurationReference = 5086E6E90642BC9620139FC3 /* Pods-watchTune.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 489VWS49NR;
+				DEVELOPMENT_TEAM = 93ZH5ZQA23;
 				INFOPLIST_FILE = watchTune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldr.watchTune;
@@ -760,6 +932,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10C1FFB71DDF1E0B0028AC79 /* Build configuration list for PBXNativeTarget "watchTuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C1FFB51DDF1E0B0028AC79 /* Debug */,
+				10C1FFB61DDF1E0B0028AC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E71C0B8E1DD35D550062933A /* Build configuration list for PBXProject "watchTune" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
